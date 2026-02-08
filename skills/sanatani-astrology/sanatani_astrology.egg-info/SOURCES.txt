@@ -16,15 +16,6 @@ sanatani_astrology/astro_core/bphs_validation/enhanced_system.py
 sanatani_astrology/astro_core/commentary_engine/__init__.py
 sanatani_astrology/astro_core/commentary_engine/cli.py
 sanatani_astrology/astro_core/commentary_engine/consolidated_commentary_engine.py
-sanatani_astrology/astro_core/core/__init__.py
-sanatani_astrology/astro_core/core/configuration.py
-sanatani_astrology/astro_core/core/data_models.py
-sanatani_astrology/astro_core/core/data_validation.py
-sanatani_astrology/astro_core/core/error_handling.py
-sanatani_astrology/astro_core/core/interfaces.py
-sanatani_astrology/astro_core/core/plugin_system.py
-sanatani_astrology/astro_core/core/schema_validation.py
-sanatani_astrology/astro_core/core/weighting_engine.py
 sanatani_astrology/astro_core/festivals/__init__.py
 sanatani_astrology/astro_core/festivals/calculator.py
 sanatani_astrology/astro_core/festivals/constants.py
