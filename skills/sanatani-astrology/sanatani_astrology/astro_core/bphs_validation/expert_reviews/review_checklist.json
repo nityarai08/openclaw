@@ -1,0 +1,186 @@
+{
+  "accuracy_criteria": [
+    {
+      "criterion": "BPHS Source Alignment",
+      "description": "Rule accurately reflects the teachings from BPHS text",
+      "weight": 30,
+      "check_points": [
+        "Planetary characteristics match BPHS descriptions",
+        "House effects align with classical teachings",
+        "Dasha interpretations follow BPHS methodology",
+        "Yoga definitions match traditional sources"
+      ]
+    },
+    {
+      "criterion": "Classical Consistency",
+      "description": "Rule is consistent with established astrological principles",
+      "weight": 25,
+      "check_points": [
+        "No contradictions with fundamental principles",
+        "Planetary dignities correctly applied",
+        "Aspect calculations follow traditional methods",
+        "House lordship effects properly considered"
+      ]
+    },
+    {
+      "criterion": "Condition Precision",
+      "description": "Rule conditions are precisely defined and unambiguous",
+      "weight": 20,
+      "check_points": [
+        "Planetary positions clearly specified",
+        "Dignity requirements properly defined",
+        "Timing conditions accurately stated",
+        "Strength thresholds appropriately set"
+      ]
+    },
+    {
+      "criterion": "Interpretation Validity",
+      "description": "Rule interpretation follows traditional astrological logic",
+      "weight": 25,
+      "check_points": [
+        "Effects logically follow from planetary combinations",
+        "Positive and negative manifestations balanced",
+        "Strength variations properly accounted for",
+        "Timing considerations appropriately included"
+      ]
+    }
+  ],
+  "interpretation_criteria": [
+    {
+      "criterion": "Traditional Authenticity",
+      "description": "Interpretation maintains traditional astrological authenticity",
+      "weight": 35,
+      "check_points": [
+        "Uses classical astrological terminology",
+        "Maintains traditional perspective on planetary effects",
+        "Avoids modern psychological interpretations that contradict classics",
+        "Preserves cultural and spiritual context"
+      ]
+    },
+    {
+      "criterion": "Practical Relevance",
+      "description": "Interpretation provides practical, applicable guidance",
+      "weight": 30,
+      "check_points": [
+        "Effects described in concrete, understandable terms",
+        "Guidance applicable to modern life situations",
+        "Timing advice is practical and actionable",
+        "Remedial measures are traditional and accessible"
+      ]
+    },
+    {
+      "criterion": "Clarity and Coherence",
+      "description": "Interpretation is clear, coherent, and well-structured",
+      "weight": 20,
+      "check_points": [
+        "Summary clearly explains the astrological principle",
+        "Impact statement describes specific effects",
+        "Action guidance provides concrete steps",
+        "Language is accessible without losing accuracy"
+      ]
+    },
+    {
+      "criterion": "Completeness",
+      "description": "Interpretation covers all relevant aspects of the rule",
+      "weight": 15,
+      "check_points": [
+        "All planetary combinations addressed",
+        "Various strength levels considered",
+        "Different life areas covered where applicable",
+        "Timing variations included where relevant"
+      ]
+    }
+  ],
+  "source_citation_criteria": [
+    {
+      "criterion": "Citation Accuracy",
+      "description": "Source citations are accurate and verifiable",
+      "weight": 40,
+      "check_points": [
+        "Chapter references match BPHS content",
+        "Verse numbers are correct where provided",
+        "Page numbers align with standard editions",
+        "Volume references are accurate"
+      ]
+    },
+    {
+      "criterion": "Citation Completeness",
+      "description": "All relevant sources are properly cited",
+      "weight": 30,
+      "check_points": [
+        "Primary BPHS sources identified",
+        "Supporting classical texts referenced where applicable",
+        "Commentary sources noted when used",
+        "Translation sources specified"
+      ]
+    },
+    {
+      "criterion": "Source Quality",
+      "description": "Citations reference authoritative and reliable sources",
+      "weight": 20,
+      "check_points": [
+        "Uses recognized BPHS translations",
+        "References established commentaries",
+        "Avoids questionable or disputed sources",
+        "Prioritizes original Sanskrit sources where possible"
+      ]
+    },
+    {
+      "criterion": "Traceability",
+      "description": "Citations enable verification of rule content",
+      "weight": 10,
+      "check_points": [
+        "Specific enough to locate source material",
+        "Includes sufficient context for verification",
+        "References are accessible to reviewers",
+        "Multiple sources provided for disputed points"
+      ]
+    }
+  ],
+  "actionability_criteria": [
+    {
+      "criterion": "Specificity",
+      "description": "Action recommendations are specific and concrete",
+      "weight": 35,
+      "check_points": [
+        "Actions include specific steps or methods",
+        "Timing guidance is precise where applicable",
+        "Quantities or durations specified when relevant",
+        "Clear success criteria provided"
+      ]
+    },
+    {
+      "criterion": "Traditional Authenticity",
+      "description": "Actions align with traditional remedial measures",
+      "weight": 30,
+      "check_points": [
+        "Remedies follow classical prescriptions",
+        "Mantras and rituals are traditionally accurate",
+        "Gemstone recommendations follow classical rules",
+        "Charitable activities align with traditional guidance"
+      ]
+    },
+    {
+      "criterion": "Practical Feasibility",
+      "description": "Actions are practically feasible for modern practitioners",
+      "weight": 25,
+      "check_points": [
+        "Actions can be performed in modern contexts",
+        "Required resources are reasonably accessible",
+        "Time commitments are realistic",
+        "Cultural adaptations are appropriate"
+      ]
+    },
+    {
+      "criterion": "Safety and Ethics",
+      "description": "Actions are safe, ethical, and beneficial",
+      "weight": 10,
+      "check_points": [
+        "No harmful or dangerous recommendations",
+        "Ethical considerations properly addressed",
+        "Respect for individual circumstances",
+        "Appropriate disclaimers included where needed"
+      ]
+    }
+  ]
+}

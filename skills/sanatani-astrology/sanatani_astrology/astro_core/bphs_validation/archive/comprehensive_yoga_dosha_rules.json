@@ -1,0 +1,740 @@
+{
+  "meta": {
+    "title": "Comprehensive BPHS Yoga and Dosha Rules v1.0",
+    "basis": "Bṛhat Parāśara Horā Śāstra Classical Combinations",
+    "created_at": "2025-10-12T08:17:16.522423",
+    "total_rules": 13,
+    "rule_categories": {
+      "raja_yogas": 2,
+      "dhana_yogas": 2,
+      "pancha_mahapurusha_yogas": 5,
+      "major_doshas": 3,
+      "aristha_yogas": 1
+    }
+  },
+  "rules": [
+    {
+      "serial": 2000,
+      "id": "raja_yoga_kendra_trikona_association",
+      "section": "raja_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "41",
+        "verse": "15-20",
+        "page": 395,
+        "volume": 1,
+        "exact_quote": "If lords of kendras and trikonas are associated or in mutual aspect, Raja Yoga is formed giving royal status and authority.",
+        "interpretation_notes": "Classic Raja Yoga formation through kendra-trikona lord connections"
+      },
+      "conditions": {
+        "primary_condition": {
+          "association": {
+            "lords": {
+              "in": [1, 4, 7, 10]
+            },
+            "with_lords": {
+              "in": [5, 9]
+            },
+            "type": {
+              "in": ["conjunction", "mutual_aspect", "exchange"]
+            }
+          }
+        },
+        "strength_requirements": {
+          "minimum_dignity": "friend",
+          "avoid_combustion": true,
+          "avoid_debilitation": true
+        }
+      },
+      "summary": "Raja Yoga forms when kendra lords (1st, 4th, 7th, 10th) associate with trikona lords (5th, 9th) through conjunction, aspect, or exchange, conferring royal status and authority",
+      "impact": {
+        "positive_manifestation": "Royal status, high government positions, authority over others, wealth accumulation, fame, respect from society, leadership qualities, and divine protection",
+        "negative_manifestation": "Delayed results if lords are weak, temporary setbacks during malefic periods, responsibility burdens, and political challenges",
+        "neutral_manifestation": "Moderate leadership roles, gradual authority growth, and recognition in chosen field",
+        "strength_variations": {
+          "both_exalted": "Exceptional royal status, highest government positions, international recognition",
+          "both_own": "Strong authority, stable leadership, lasting achievements",
+          "mixed_dignity": "Variable results based on stronger planet's influence",
+          "weak_lords": "Delayed or reduced royal effects, requires effort for manifestation"
+        },
+        "timing_variations": {
+          "during_dasha": "Peak effects during participating planets' dashas",
+          "during_transits": "Enhanced during favorable transits to natal positions",
+          "maturity_periods": "Full effects after planets reach maturity ages"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Seek leadership positions during favorable dasha periods",
+          "Build authority through ethical means and service",
+          "Strengthen both kendra and trikona house significations",
+          "Time important announcements during participating planets' favorable transits",
+          "Maintain dharmic conduct to sustain royal blessings"
+        ],
+        "conditional_actions": {
+          "if_strong": [
+            "Apply for high government positions",
+            "Start leadership ventures",
+            "Seek royal patronage"
+          ],
+          "if_weak": [
+            "Build credentials gradually",
+            "Serve in supporting roles first",
+            "Strengthen planetary dignity through remedies"
+          ]
+        },
+        "timing_guidance": {
+          "optimal": "During mahadasha/antardasha of participating planets, especially when transiting own/exaltation signs",
+          "avoid": "During malefic dashas, eclipse periods affecting participating planets, or when planets are combust"
+        }
+      }
+    },
+    {
+      "serial": 2001,
+      "id": "neecha_bhanga_raja_yoga",
+      "section": "raja_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "41",
+        "verse": "25-30",
+        "page": 398,
+        "volume": 1,
+        "exact_quote": "When a debilitated planet's debilitation is cancelled by specific conditions, it forms Neecha Bhanga Raja Yoga giving rise from low status to high position.",
+        "interpretation_notes": "Cancellation of debilitation creating powerful Raja Yoga"
+      },
+      "conditions": {
+        "primary_condition": {
+          "neecha_bhanga": {
+            "debilitated_planet": "*",
+            "cancellation_type": {
+              "in": [
+                "exaltation_lord_kendra",
+                "own_lord_kendra",
+                "mutual_aspect",
+                "conjunction_exalted"
+              ]
+            }
+          }
+        }
+      },
+      "summary": "Neecha Bhanga Raja Yoga occurs when debilitation is cancelled, transforming weakness into exceptional strength and conferring rise from humble origins to high status",
+      "impact": {
+        "positive_manifestation": "Dramatic rise from low status, exceptional achievements despite humble beginnings, strong comeback ability, and unique leadership qualities",
+        "negative_manifestation": "Initial struggles and setbacks, delayed recognition, and periodic challenges testing resilience"
+      },
+      "action": {
+        "primary_actions": [
+          "Embrace challenges as opportunities for growth",
+          "Build resilience and comeback strategies",
+          "Focus on unique talents that set you apart",
+          "Seek mentors who recognize hidden potential",
+          "Document journey for inspiring others"
+        ]
+      }
+    },
+    {
+      "serial": 2002,
+      "id": "dhana_yoga_2nd_11th_lords",
+      "section": "dhana_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "41",
+        "verse": "35-40",
+        "page": 402,
+        "volume": 1,
+        "exact_quote": "Association of 2nd and 11th lords, or their placement in each other's houses, creates powerful Dhana Yoga for wealth accumulation.",
+        "interpretation_notes": "Primary wealth combination through income and asset lords"
+      },
+      "conditions": {
+        "primary_condition": {
+          "any_of": [
+            {
+              "association": {
+                "lords": [2],
+                "with_lords": [11],
+                "type": {
+                  "in": ["conjunction", "mutual_aspect"]
+                }
+              }
+            },
+            {
+              "lord_in_house": {
+                "of": 2,
+                "in": 11
+              }
+            },
+            {
+              "lord_in_house": {
+                "of": 11,
+                "in": 2
+              }
+            },
+            {
+              "exchange": {
+                "lords": [2, 11]
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Dhana Yoga forms through 2nd and 11th lord connections, creating powerful wealth accumulation potential through income streams and asset building",
+      "impact": {
+        "positive_manifestation": "Multiple income sources, rapid wealth accumulation, successful investments, business profits, and financial security",
+        "negative_manifestation": "Wealth fluctuations if lords are afflicted, overspending tendencies, and financial stress during weak periods"
+      },
+      "action": {
+        "primary_actions": [
+          "Diversify income sources during favorable periods",
+          "Invest in assets that appreciate over time",
+          "Build systematic savings and investment plans",
+          "Network with wealthy and successful individuals",
+          "Time major financial decisions during strong planetary periods"
+        ]
+      }
+    },
+    {
+      "serial": 2003,
+      "id": "lakshmi_yoga_venus_kendra_moon",
+      "section": "dhana_yogas",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "41",
+        "verse": "45-48",
+        "page": 405,
+        "volume": 1,
+        "exact_quote": "When Venus is in kendra from Moon and is strong, Lakshmi Yoga is formed bringing wealth, beauty, and luxury.",
+        "interpretation_notes": "Goddess Lakshmi's blessings through Venus-Moon harmony"
+      },
+      "conditions": {
+        "primary_condition": {
+          "lunar_reference": {
+            "planet_in_houses_from_moon": {
+              "planet": "venus",
+              "houses": [1, 4, 7, 10]
+            }
+          }
+        },
+        "strength_requirements": {
+          "venus_dignity": {
+            "in": ["exalted", "own", "friend"]
+          },
+          "moon_strength": "waxing"
+        }
+      },
+      "summary": "Lakshmi Yoga occurs when strong Venus is in kendra from Moon, bestowing wealth, beauty, luxury, and material comforts through divine grace",
+      "impact": {
+        "positive_manifestation": "Abundant wealth, beautiful possessions, luxury lifestyle, artistic success, and harmonious relationships",
+        "negative_manifestation": "Excessive materialism, vanity, and attachment to luxury when Venus is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Invest in beauty, art, and luxury industries",
+          "Cultivate aesthetic sense and refined tastes",
+          "Build harmonious relationships for mutual prosperity",
+          "Practice gratitude for material blessings",
+          "Share wealth through charitable activities"
+        ]
+      }
+    },
+    {
+      "serial": 2004,
+      "id": "ruchaka_yoga_mars_kendra",
+      "section": "pancha_mahapurusha_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "70",
+        "verse": "1-5",
+        "page": 520,
+        "volume": 1,
+        "exact_quote": "Mars in kendra in own sign or exaltation creates Ruchaka Yoga, making the native a great warrior, commander, and leader.",
+        "interpretation_notes": "First of the five great person yogas through Mars"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_of": [
+            {
+              "planet_position": {
+                "planet": "mars",
+                "house": {
+                  "in": [1, 4, 7, 10]
+                }
+              }
+            },
+            {
+              "planet_dignity": {
+                "planet": "mars",
+                "dignity": {
+                  "in": ["exalted", "own"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Ruchaka Yoga forms when Mars is in kendra in own sign (Aries/Scorpio) or exaltation (Capricorn), creating a great warrior, commander, and fearless leader",
+      "impact": {
+        "positive_manifestation": "Military leadership, physical strength, courage, victory over enemies, land ownership, and commanding presence",
+        "negative_manifestation": "Excessive aggression, conflicts, and domineering behavior if Mars is afflicted by malefics"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue leadership roles in military, police, or security",
+          "Develop physical fitness and martial skills",
+          "Invest in real estate and property development",
+          "Channel aggression into competitive sports or business",
+          "Practice anger management and diplomatic communication"
+        ]
+      }
+    },
+    {
+      "serial": 2005,
+      "id": "bhadra_yoga_mercury_kendra",
+      "section": "pancha_mahapurusha_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "70",
+        "verse": "6-10",
+        "page": 522,
+        "volume": 1,
+        "exact_quote": "Mercury in kendra in own sign or exaltation creates Bhadra Yoga, making the native learned, eloquent, and successful in trade.",
+        "interpretation_notes": "Second Mahapurusha yoga through Mercury"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_of": [
+            {
+              "planet_position": {
+                "planet": "mercury",
+                "house": {
+                  "in": [1, 4, 7, 10]
+                }
+              }
+            },
+            {
+              "planet_dignity": {
+                "planet": "mercury",
+                "dignity": {
+                  "in": ["exalted", "own"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Bhadra Yoga forms when Mercury is in kendra in own sign (Gemini/Virgo) or exaltation (Virgo), creating exceptional learning, eloquence, and commercial success",
+      "impact": {
+        "positive_manifestation": "Exceptional learning ability, eloquent speech, commercial success, writing skills, and intellectual recognition",
+        "negative_manifestation": "Over-analysis, communication problems, and nervous disorders if Mercury is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue careers in communication, writing, or teaching",
+          "Develop business and trading skills",
+          "Invest in education and skill development",
+          "Build networks with intellectuals and business leaders",
+          "Practice clear and effective communication"
+        ]
+      }
+    },
+    {
+      "serial": 2006,
+      "id": "hamsa_yoga_jupiter_kendra",
+      "section": "pancha_mahapurusha_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "70",
+        "verse": "11-15",
+        "page": 524,
+        "volume": 1,
+        "exact_quote": "Jupiter in kendra in own sign or exaltation creates Hamsa Yoga, making the native wise, virtuous, and respected like a swan.",
+        "interpretation_notes": "Third Mahapurusha yoga through Jupiter"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_of": [
+            {
+              "planet_position": {
+                "planet": "jupiter",
+                "house": {
+                  "in": [1, 4, 7, 10]
+                }
+              }
+            },
+            {
+              "planet_dignity": {
+                "planet": "jupiter",
+                "dignity": {
+                  "in": ["exalted", "own"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Hamsa Yoga forms when Jupiter is in kendra in own sign (Sagittarius/Pisces) or exaltation (Cancer), creating exceptional wisdom, virtue, and swan-like purity",
+      "impact": {
+        "positive_manifestation": "Exceptional wisdom, spiritual knowledge, teaching abilities, respect from society, and divine protection",
+        "negative_manifestation": "Over-optimism, excessive expansion, and dogmatic behavior if Jupiter is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue teaching, counseling, or spiritual roles",
+          "Develop wisdom through study and meditation",
+          "Engage in charitable and humanitarian activities",
+          "Seek positions of moral authority and guidance",
+          "Practice ethical conduct in all dealings"
+        ]
+      }
+    },
+    {
+      "serial": 2007,
+      "id": "malavya_yoga_venus_kendra",
+      "section": "pancha_mahapurusha_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "70",
+        "verse": "16-20",
+        "page": 526,
+        "volume": 1,
+        "exact_quote": "Venus in kendra in own sign or exaltation creates Malavya Yoga, making the native beautiful, artistic, and wealthy.",
+        "interpretation_notes": "Fourth Mahapurusha yoga through Venus"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_of": [
+            {
+              "planet_position": {
+                "planet": "venus",
+                "house": {
+                  "in": [1, 4, 7, 10]
+                }
+              }
+            },
+            {
+              "planet_dignity": {
+                "planet": "venus",
+                "dignity": {
+                  "in": ["exalted", "own"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Malavya Yoga forms when Venus is in kendra in own sign (Taurus/Libra) or exaltation (Pisces), creating exceptional beauty, artistic talent, and material prosperity",
+      "impact": {
+        "positive_manifestation": "Exceptional beauty, artistic success, material wealth, harmonious relationships, and refined lifestyle",
+        "negative_manifestation": "Vanity, excessive indulgence, and relationship complications if Venus is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Develop artistic and creative talents",
+          "Invest in beauty, fashion, or entertainment industries",
+          "Cultivate harmonious relationships and partnerships",
+          "Practice moderation in luxury and pleasure",
+          "Use beauty and charm for positive influence"
+        ]
+      }
+    },
+    {
+      "serial": 2008,
+      "id": "sasa_yoga_saturn_kendra",
+      "section": "pancha_mahapurusha_yogas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "70",
+        "verse": "21-25",
+        "page": 528,
+        "volume": 1,
+        "exact_quote": "Saturn in kendra in own sign or exaltation creates Sasa Yoga, making the native a great leader, disciplined, and long-lived.",
+        "interpretation_notes": "Fifth Mahapurusha yoga through Saturn"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_of": [
+            {
+              "planet_position": {
+                "planet": "saturn",
+                "house": {
+                  "in": [1, 4, 7, 10]
+                }
+              }
+            },
+            {
+              "planet_dignity": {
+                "planet": "saturn",
+                "dignity": {
+                  "in": ["exalted", "own"]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Sasa Yoga forms when Saturn is in kendra in own sign (Capricorn/Aquarius) or exaltation (Libra), creating exceptional discipline, leadership, and longevity",
+      "impact": {
+        "positive_manifestation": "Exceptional discipline, systematic leadership, longevity, patience, and lasting achievements through persistent effort",
+        "negative_manifestation": "Excessive rigidity, delays, and pessimism if Saturn is afflicted by malefics"
+      },
+      "action": {
+        "primary_actions": [
+          "Develop systematic and disciplined approaches",
+          "Pursue long-term goals requiring patience",
+          "Build lasting institutions and structures",
+          "Practice regular health and wellness routines",
+          "Mentor others in discipline and perseverance"
+        ]
+      }
+    },
+    {
+      "serial": 2009,
+      "id": "manglik_dosha_mars_placement",
+      "section": "major_doshas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "82",
+        "verse": "10-15",
+        "page": 650,
+        "volume": 1,
+        "exact_quote": "Mars in 1st, 4th, 7th, 8th, or 12th house creates Manglik Dosha causing marital discord and delays.",
+        "interpretation_notes": "Primary marital affliction through Mars placement"
+      },
+      "conditions": {
+        "primary_condition": {
+          "planet_position": {
+            "planet": "mars",
+            "house": {
+              "in": [1, 4, 7, 8, 12]
+            }
+          }
+        },
+        "severity_factors": {
+          "high_severity": {
+            "house": {
+              "in": [1, 7, 8]
+            }
+          },
+          "medium_severity": {
+            "house": {
+              "in": [4, 12]
+            }
+          },
+          "cancellation_factors": ["mars_exalted", "mars_own", "spouse_also_manglik"]
+        }
+      },
+      "summary": "Manglik Dosha occurs when Mars is placed in 1st, 4th, 7th, 8th, or 12th house, creating potential marital discord, delays, and relationship challenges",
+      "impact": {
+        "positive_manifestation": "Strong will, independence, and leadership in relationships when properly managed through remedies",
+        "negative_manifestation": "Marital delays, spouse health issues, relationship conflicts, divorce tendencies, and aggressive behavior in partnerships",
+        "neutral_manifestation": "Moderate relationship challenges that can be overcome with understanding and proper remedial measures",
+        "strength_variations": {
+          "mars_1st_house": "Severe dosha affecting personality and marriage compatibility",
+          "mars_7th_house": "Direct impact on marriage and partnerships",
+          "mars_8th_house": "Affects spouse longevity and sudden relationship changes",
+          "mars_4th_house": "Moderate dosha affecting home harmony",
+          "mars_12th_house": "Hidden relationship issues and expenses"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Marry another Manglik person to neutralize the dosha",
+          "Perform Mangal Shanti puja and Mars remedies regularly",
+          "Donate red items (red cloth, jaggery, masoor dal) on Tuesdays",
+          "Chant Mars mantras (Om Angarakaya Namaha) 108 times daily",
+          "Delay marriage until after age 28 when Mars matures"
+        ],
+        "conditional_actions": {
+          "if_severe": [
+            "Perform Kumbh Vivah (symbolic marriage) before actual marriage",
+            "Seek astrological guidance for timing",
+            "Consider arranged marriage with astrological matching"
+          ],
+          "if_moderate": [
+            "Regular Mars remedies",
+            "Couple counseling",
+            "Patience in relationship building"
+          ]
+        },
+        "timing_guidance": {
+          "optimal": "Marry during favorable Mars transits and after proper remedial measures",
+          "avoid": "Marriage during Mars retrograde, Mars-Saturn conjunctions, or malefic Mars dashas"
+        }
+      }
+    },
+    {
+      "serial": 2010,
+      "id": "kala_sarpa_dosha_rahu_ketu_axis",
+      "section": "major_doshas",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "85",
+        "verse": "20-25",
+        "page": 680,
+        "volume": 1,
+        "exact_quote": "When all planets are hemmed between Rahu and Ketu, Kala Sarpa Dosha is formed causing obstacles and delays in life.",
+        "interpretation_notes": "Serpent affliction through Rahu-Ketu axis containment"
+      },
+      "conditions": {
+        "primary_condition": {
+          "all_planets_between_rahu_ketu": true,
+          "exceptions": ["rahu", "ketu"]
+        },
+        "severity_types": {
+          "complete": "All 7 planets between Rahu-Ketu",
+          "partial": "6 planets between Rahu-Ketu",
+          "anuloma": "Rahu ahead of Ketu in zodiacal order",
+          "viloma": "Ketu ahead of Rahu in zodiacal order"
+        }
+      },
+      "summary": "Kala Sarpa Dosha forms when all planets are positioned between Rahu and Ketu, creating a serpent-like energy that brings obstacles, delays, and karmic challenges",
+      "impact": {
+        "positive_manifestation": "Spiritual growth, intuitive abilities, research skills, and eventual success after overcoming obstacles",
+        "negative_manifestation": "Repeated obstacles, delays in achievements, mental anxiety, health issues, and karmic struggles",
+        "strength_variations": {
+          "complete_dosha": "Maximum obstacles and delays requiring strong remedial measures",
+          "partial_dosha": "Moderate challenges with some relief periods",
+          "anuloma_type": "Obstacles in first half of life, improvement later",
+          "viloma_type": "Better first half, challenges in later life"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Perform Kala Sarpa Dosha Shanti puja at Trimbakeshwar or other Shiva temples",
+          "Chant Maha Mrityunjaya mantra daily for protection",
+          "Donate to snake-related charities or wildlife conservation",
+          "Practice patience and persistence in all endeavors",
+          "Seek spiritual guidance and develop meditation practices"
+        ],
+        "remedial_measures": [
+          "Rudrabhishek on Mondays and during Shravan month",
+          "Wear silver serpent ring on middle finger",
+          "Feed milk to snakes or snake idols on Nag Panchami",
+          "Recite Vishnu Sahasranama regularly",
+          "Perform charity on eclipses and Amavasya days"
+        ]
+      }
+    },
+    {
+      "serial": 2011,
+      "id": "pitra_dosha_ancestral_affliction",
+      "section": "major_doshas",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "88",
+        "verse": "30-35",
+        "page": 720,
+        "volume": 1,
+        "exact_quote": "Affliction to 9th house, Sun, or presence of Rahu with Sun/Moon creates Pitra Dosha indicating ancestral displeasure.",
+        "interpretation_notes": "Ancestral affliction requiring propitiation"
+      },
+      "conditions": {
+        "primary_condition": {
+          "any_of": [
+            {
+              "planet_position": {
+                "planet": "rahu",
+                "house": 9
+              }
+            },
+            {
+              "association": {
+                "planets": ["rahu"],
+                "with_planets": ["sun"],
+                "type": "conjunction"
+              }
+            },
+            {
+              "association": {
+                "planets": ["rahu"],
+                "with_planets": ["moon"],
+                "type": "conjunction"
+              }
+            },
+            {
+              "lord_afflicted": {
+                "house": 9,
+                "by": ["rahu", "saturn", "mars"]
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Pitra Dosha indicates ancestral displeasure due to unfulfilled duties to forefathers, manifesting through 9th house afflictions or Rahu's association with luminaries",
+      "impact": {
+        "positive_manifestation": "Spiritual growth through ancestral service, family healing, and karmic resolution",
+        "negative_manifestation": "Family problems, childlessness, financial struggles, and obstacles in spiritual progress"
+      },
+      "action": {
+        "primary_actions": [
+          "Perform Pitra Paksha rituals annually during Mahalaya period",
+          "Offer food and water to ancestors daily",
+          "Donate to Brahmins and feed the poor regularly",
+          "Plant trees and create water sources for public benefit",
+          "Perform Gaya Shraddha or visit Gaya for ancestral peace"
+        ]
+      }
+    },
+    {
+      "serial": 2012,
+      "id": "grahan_yoga_eclipse_combination",
+      "section": "aristha_yogas",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "90",
+        "verse": "5-10",
+        "page": 750,
+        "volume": 1,
+        "exact_quote": "Conjunction of Sun or Moon with Rahu or Ketu creates Grahan Yoga causing eclipse-like effects in life.",
+        "interpretation_notes": "Eclipse combination creating periodic obstacles"
+      },
+      "conditions": {
+        "primary_condition": {
+          "any_of": [
+            {
+              "association": {
+                "planets": ["sun"],
+                "with_planets": ["rahu"],
+                "type": "conjunction"
+              }
+            },
+            {
+              "association": {
+                "planets": ["sun"],
+                "with_planets": ["ketu"],
+                "type": "conjunction"
+              }
+            },
+            {
+              "association": {
+                "planets": ["moon"],
+                "with_planets": ["rahu"],
+                "type": "conjunction"
+              }
+            },
+            {
+              "association": {
+                "planets": ["moon"],
+                "with_planets": ["ketu"],
+                "type": "conjunction"
+              }
+            }
+          ]
+        }
+      },
+      "summary": "Grahan Yoga forms when Sun or Moon conjoins Rahu or Ketu, creating eclipse-like effects with periodic obstacles and spiritual opportunities",
+      "impact": {
+        "positive_manifestation": "Spiritual insights, research abilities, and breakthrough moments after overcoming challenges",
+        "negative_manifestation": "Periodic setbacks, health issues, reputation challenges, and mental confusion during eclipse periods"
+      },
+      "action": {
+        "primary_actions": [
+          "Observe eclipse precautions and perform protective rituals",
+          "Practice meditation and spiritual disciplines regularly",
+          "Avoid major decisions during actual eclipses",
+          "Strengthen the afflicted luminary through appropriate remedies",
+          "Develop patience for cyclical challenges and opportunities"
+        ]
+      }
+    }
+  ]
+}

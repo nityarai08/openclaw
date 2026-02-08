@@ -1,0 +1,132 @@
+{
+  "Panchang": {
+    "tithi_name": "Krishna Chaturdashi",
+    "nakshatra_name": "Pushya"
+  },
+  "Panchang_Details": {
+    "yoga_name": "Vyatipata",
+    "karana_name": "Vishti"
+  },
+  "Panchang_MonthPaksha": {
+    "lunar_month": "Ashadha",
+    "paksha": "Krishna Paksha"
+  },
+  "Geocoding": {
+    "latitude": 26.7991,
+    "longitude": 82.2047
+  },
+  "Geocoding_Metadata": {
+    "timezone_offset": 5.5,
+    "country": "India"
+  },
+  "Implicit_Multi_2Tool": {
+    "latitude": 26.7991,
+    "longitude": 82.2047,
+    "tithi_name": "Krishna Chaturdashi",
+    "nakshatra_name": "Pushya"
+  },
+  "Implicit_Multi_3Tool": {
+    "delhi_latitude": 28.6139,
+    "delhi_longitude": 77.209,
+    "d1_lagna_rasi": 11,
+    "birth_nakshatra_name": "Dhanishta"
+  },
+  "Implicit_Multi_4Tool": {
+    "ayodhya_tithi_name": "Krishna Chaturdashi",
+    "delhi_d1_lagna_rasi": 11,
+    "compatibility_total_points": 16.0,
+    "mumbai_longitude": 72.8777
+  },
+  "Implicit_Multi_5Tool": {
+    "ayodhya_nakshatra_name": "Pushya",
+    "delhi_d1_lagna_rasi": 11,
+    "delhi_birth_nakshatra_lord": "Mars",
+    "compatibility_total_points": 16.0,
+    "mumbai_longitude": 72.8777
+  },
+  "Chart_D1": {
+    "d1_lagna_rasi": 11
+  },
+  "Chart_D2": {
+    "d2_lagna_rasi": 3
+  },
+  "Chart_D3": {
+    "d3_lagna_rasi": 3
+  },
+  "Chart_D4": {
+    "d4_lagna_rasi": 2
+  },
+  "Chart_D7": {
+    "d7_lagna_rasi": 8
+  },
+  "Chart_D9": {
+    "d9_lagna_rasi": 7
+  },
+  "Chart_D10": {
+    "d10_lagna_rasi": 11
+  },
+  "Chart_D12": {
+    "d12_lagna_rasi": 4
+  },
+  "Chart_D16": {
+    "d16_lagna_rasi": 3
+  },
+  "MoonRasi_D1": {
+    "d1_moon_rasi": 10
+  },
+  "MoonRasi_D9": {
+    "d9_moon_rasi": 7
+  },
+  "Dasha_BirthProfile": {
+    "birth_nakshatra": 23,
+    "birth_nakshatra_name": "Dhanishta",
+    "birth_nakshatra_lord": "Mars"
+  },
+  "Dasha_MahadashaSequence": {
+    "first_mahadasha": "Mars",
+    "second_mahadasha": "Rahu",
+    "third_mahadasha": "Jupiter",
+    "fourth_mahadasha": "Saturn"
+  },
+  "Dasha_MahadashaDurations": {
+    "second_mahadasha_duration_years": 18,
+    "fourth_mahadasha_duration_years": 19
+  },
+  "Dasha_AntardashaDetection": {
+    "saturn_mahadasha_first_antardasha": "Saturn",
+    "saturn_mahadasha_second_antardasha": "Mercury",
+    "saturn_mahadasha_first_pratyantardasha": "Saturn"
+  },
+  "Dasha_SaturnAntardashaOrder": {
+    "saturn_third_antardasha": "Ketu",
+    "saturn_seventh_antardasha": "Mars"
+  },
+  "Yoga_Detection": {
+    "yoga_count": 1,
+    "primary_yoga_name": "Budh Aditya Yoga"
+  },
+  "Yoga_Profile": {
+    "primary_yoga_type": "beneficial",
+    "primary_yoga_strength": "medium"
+  },
+  "Dosha_Detection": {
+    "dosha_count": 1,
+    "primary_dosha_name": "Manglik Dosha",
+    "primary_dosha_severity": "strong"
+  },
+  "Dosha_Profile": {
+    "primary_dosha_type": "challenging",
+    "primary_dosha_first_house": 1
+  },
+  "Matchmaking": {
+    "total_points": 16.0
+  },
+  "Matchmaking_Dosha": {
+    "nadi_points": 8.0,
+    "bhakoot_dosha": true
+  },
+  "Matchmaking_MoonSigns": {
+    "person_a_moon_sign": "Aquarius",
+    "person_b_moon_sign": "Capricorn"
+  }
+}

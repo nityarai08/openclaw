@@ -1,0 +1,497 @@
+{
+  "meta": {
+    "title": "Comprehensive BPHS Planetary Aspect and Combination Rules v1.0",
+    "basis": "Bṛhat Parāśara Horā Śāstra Ch. 8 and Classical Principles",
+    "created_at": "2025-10-12T08:22:11.715872",
+    "total_rules": 11,
+    "rule_categories": {
+      "classical_aspects": 3,
+      "planetary_war": 1,
+      "combustion_rules": 6,
+      "special_combinations": 1
+    },
+    "aspects_covered": [
+      "Mars special aspects (4th, 8th)",
+      "Jupiter special aspects (5th, 9th)",
+      "Saturn special aspects (3rd, 10th)"
+    ],
+    "combustion_thresholds": {
+      "Moon": "12 degrees",
+      "Mars": "17 degrees",
+      "Mercury": "14 degrees",
+      "Jupiter": "11 degrees",
+      "Venus": "10 degrees",
+      "Saturn": "15 degrees"
+    }
+  },
+  "rules": [
+    {
+      "serial": 4000,
+      "id": "mars_special_aspects_4th_8th",
+      "section": "planetary_aspects",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "8",
+        "verse": "1-5",
+        "page": 105,
+        "volume": 1,
+        "exact_quote": "Mars aspects the 4th and 8th houses from its position with full strength, in addition to the 7th house aspect common to all planets.",
+        "interpretation_notes": "Mars has special aspects to 4th and 8th houses with full strength"
+      },
+      "conditions": {
+        "primary_condition": {
+          "planet_aspects": {
+            "planet": "mars",
+            "aspect_houses": [4, 7, 8],
+            "aspect_strength": "full"
+          }
+        },
+        "orb_considerations": {
+          "exact_aspect": "0-3 degrees",
+          "strong_aspect": "3-6 degrees",
+          "moderate_aspect": "6-9 degrees",
+          "weak_aspect": "9-12 degrees"
+        }
+      },
+      "summary": "Mars casts special aspects to 4th and 8th houses with full strength, affecting home, property, mother (4th) and longevity, transformation, occult (8th) in addition to 7th house partnerships",
+      "impact": {
+        "positive_manifestation": "Strong protection of home and property, transformative power, occult knowledge, and partnership strength when Mars is dignified and well-placed",
+        "negative_manifestation": "Home disturbances, property disputes, health issues, sudden changes, and partnership conflicts when Mars is afflicted or debilitated",
+        "neutral_manifestation": "Mixed results in aspected areas with periodic challenges and benefits depending on Mars' transit strength",
+        "strength_variations": {
+          "mars_exalted_aspects": "Maximum protective and transformative power in aspected houses",
+          "mars_own_aspects": "Strong beneficial effects with steady progress in aspected areas",
+          "mars_debilitated_aspects": "Challenges and obstacles in aspected houses requiring remedial measures",
+          "exact_orb_aspects": "Intense and immediate effects in aspected areas",
+          "wide_orb_aspects": "Subtle and gradual influences in aspected areas"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen Mars through appropriate remedies if aspects are afflicted",
+          "Protect home and property during Mars transit periods",
+          "Practice safety measures in areas ruled by aspected houses",
+          "Use Mars energy constructively for transformation and growth",
+          "Time important decisions in aspected areas during strong Mars periods"
+        ],
+        "conditional_actions": {
+          "if_mars_strong": [
+            "Invest in property and real estate",
+            "Pursue transformative practices",
+            "Strengthen partnerships"
+          ],
+          "if_mars_weak": [
+            "Avoid property disputes",
+            "Practice patience in relationships",
+            "Focus on Mars remedies"
+          ]
+        }
+      }
+    },
+    {
+      "serial": 4001,
+      "id": "jupiter_special_aspects_5th_9th",
+      "section": "planetary_aspects",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "8",
+        "verse": "6-10",
+        "page": 107,
+        "volume": 1,
+        "exact_quote": "Jupiter aspects the 5th and 9th houses from its position with full strength, bestowing wisdom, progeny, and dharmic blessings.",
+        "interpretation_notes": "Jupiter's special aspects to trikona houses enhance wisdom and dharma"
+      },
+      "conditions": {
+        "primary_condition": {
+          "planet_aspects": {
+            "planet": "jupiter",
+            "aspect_houses": [5, 7, 9],
+            "aspect_strength": "full"
+          }
+        }
+      },
+      "summary": "Jupiter casts special aspects to 5th and 9th houses with full strength, blessing children, creativity, education (5th) and dharma, higher learning, fortune (9th) along with 7th house partnerships",
+      "impact": {
+        "positive_manifestation": "Children's blessings, educational success, creative achievements, dharmic conduct, spiritual growth, and divine protection when Jupiter is strong",
+        "negative_manifestation": "Children-related challenges, educational obstacles, creative blocks, and spiritual confusion when Jupiter is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on education and spiritual development in aspected areas",
+          "Strengthen relationships with children and mentors",
+          "Practice dharmic conduct and ethical behavior",
+          "Engage in teaching and knowledge-sharing activities",
+          "Seek blessings from spiritual teachers and elders"
+        ]
+      }
+    },
+    {
+      "serial": 4002,
+      "id": "saturn_special_aspects_3rd_10th",
+      "section": "planetary_aspects",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "8",
+        "verse": "11-15",
+        "page": 109,
+        "volume": 1,
+        "exact_quote": "Saturn aspects the 3rd and 10th houses from its position with full strength, affecting efforts, siblings, career, and reputation.",
+        "interpretation_notes": "Saturn's special aspects to upachaya houses create growth through discipline"
+      },
+      "conditions": {
+        "primary_condition": {
+          "planet_aspects": {
+            "planet": "saturn",
+            "aspect_houses": [3, 7, 10],
+            "aspect_strength": "full"
+          }
+        }
+      },
+      "summary": "Saturn casts special aspects to 3rd and 10th houses with full strength, disciplining efforts, siblings, communication (3rd) and career, reputation, authority (10th) plus 7th house partnerships",
+      "impact": {
+        "positive_manifestation": "Disciplined efforts, steady career growth, lasting achievements, and structured partnerships when Saturn is dignified",
+        "negative_manifestation": "Delayed results, career obstacles, sibling troubles, and partnership restrictions when Saturn is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Practice patience and persistence in aspected areas",
+          "Build systematic approaches to career and relationships",
+          "Maintain discipline in communication and efforts",
+          "Accept delays as opportunities for strengthening foundations",
+          "Focus on long-term goals rather than quick results"
+        ]
+      }
+    },
+    {
+      "serial": 4003,
+      "id": "planetary_war_graha_yuddha",
+      "section": "planetary_combinations",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "45-50",
+        "page": 42,
+        "volume": 1,
+        "exact_quote": "When two planets are within one degree, planetary war occurs. The planet with higher longitude wins and gains strength, while the loser becomes weak.",
+        "interpretation_notes": "Graha Yuddha occurs when planets are very close, affecting their strength"
+      },
+      "conditions": {
+        "primary_condition": {
+          "planet_war": {
+            "conjunction_orb": "1_degree",
+            "participating_planets": ["mars", "mercury", "jupiter", "venus", "saturn"],
+            "exclude_planets": ["sun", "moon", "rahu", "ketu"]
+          }
+        },
+        "strength_determination": {
+          "winner_criteria": "higher_longitude",
+          "strength_gain": "winner_becomes_stronger",
+          "strength_loss": "loser_becomes_weaker"
+        }
+      },
+      "summary": "Planetary war occurs when two planets are within one degree longitude, with the planet having higher longitude winning and gaining strength while the loser becomes weakened",
+      "impact": {
+        "positive_manifestation": "Winner planet's significations become enhanced and more powerful, bringing exceptional results in its areas of influence",
+        "negative_manifestation": "Loser planet's significations become weakened, causing challenges and obstacles in its areas of influence",
+        "neutral_manifestation": "Mixed results with winner planet dominating while loser planet's effects are subdued",
+        "strength_variations": {
+          "jupiter_wins": "Enhanced wisdom, wealth, and spiritual growth with reduced effects of losing planet",
+          "venus_wins": "Increased luxury, relationships, and artistic success with losing planet's challenges",
+          "mars_wins": "Amplified courage, property gains, and technical success with losing planet's weakness",
+          "mercury_wins": "Enhanced communication, trade, and intellectual abilities with losing planet's reduction",
+          "saturn_wins": "Increased discipline, longevity, and systematic progress with losing planet's delays"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen the winning planet through appropriate remedies and worship",
+          "Mitigate the losing planet's negative effects through specific remedies",
+          "Time important activities related to winning planet during favorable periods",
+          "Avoid major decisions related to losing planet until war period ends",
+          "Practice patience and understanding during planetary war periods"
+        ],
+        "conditional_actions": {
+          "if_benefic_wins": [
+            "Maximize opportunities in winner's areas",
+            "Celebrate and utilize enhanced energies"
+          ],
+          "if_malefic_wins": [
+            "Exercise caution in winner's areas",
+            "Focus on constructive use of increased energy"
+          ]
+        }
+      }
+    },
+    {
+      "serial": 4004,
+      "id": "moon_combustion_amavasya",
+      "section": "planetary_combinations",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "55-60",
+        "page": 45,
+        "volume": 1,
+        "exact_quote": "Moon becomes combust when within 12 degrees of Sun, causing mental disturbance, emotional instability, and mother-related issues.",
+        "interpretation_notes": "Moon combustion affects mind, emotions, and maternal relationships"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "moon",
+            "with_sun": true,
+            "orb_threshold": "12_degrees"
+          }
+        },
+        "severity_levels": {
+          "severe": "0-6 degrees from Sun",
+          "moderate": "6-9 degrees from Sun",
+          "mild": "9-12 degrees from Sun"
+        }
+      },
+      "summary": "Moon combustion occurs when Moon is within 12 degrees of Sun, causing mental disturbance, emotional instability, mother-related issues, and weakened intuitive abilities",
+      "impact": {
+        "positive_manifestation": "Potential for spiritual insight and inner transformation when combustion is mild and other factors are supportive",
+        "negative_manifestation": "Mental anxiety, emotional instability, mother's health issues, sleep problems, and weakened intuition when combustion is severe",
+        "strength_variations": {
+          "severe_combustion": "Significant mental and emotional challenges requiring immediate remedial attention",
+          "moderate_combustion": "Noticeable emotional fluctuations and mother-related concerns with manageable remedies",
+          "mild_combustion": "Subtle emotional sensitivity and minor maternal issues with simple remedies"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Perform Moon remedies including white flower offerings and milk donations",
+          "Maintain regular sleep schedule and practice calming meditation",
+          "Strengthen relationship with mother and maternal figures",
+          "Wear pearl or moonstone after proper astrological consultation",
+          "Avoid major emotional decisions during severe combustion periods"
+        ]
+      }
+    },
+    {
+      "serial": 4005,
+      "id": "mars_combustion_aggression",
+      "section": "planetary_combinations",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "61-65",
+        "page": 47,
+        "volume": 1,
+        "exact_quote": "Mars becomes combust when within 17 degrees of Sun, causing increased aggression, accidents, and property disputes.",
+        "interpretation_notes": "Mars combustion increases fire element and aggressive tendencies"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "mars",
+            "with_sun": true,
+            "orb_threshold": "17_degrees"
+          }
+        }
+      },
+      "summary": "Mars combustion occurs when Mars is within 17 degrees of Sun, increasing aggression, accident proneness, property disputes, and sibling conflicts",
+      "impact": {
+        "positive_manifestation": "Enhanced leadership abilities and decisive action when channeled constructively",
+        "negative_manifestation": "Increased aggression, accident risks, property disputes, sibling troubles, and impulsive behavior"
+      },
+      "action": {
+        "primary_actions": [
+          "Practice anger management and patience techniques",
+          "Avoid aggressive confrontations and impulsive decisions",
+          "Perform Mars remedies including red coral and Hanuman worship",
+          "Exercise regularly to channel excess Mars energy constructively",
+          "Be extra cautious with fire, sharp objects, and vehicles"
+        ]
+      }
+    },
+    {
+      "serial": 4006,
+      "id": "mercury_combustion_communication",
+      "section": "planetary_combinations",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "66-70",
+        "page": 49,
+        "volume": 1,
+        "exact_quote": "Mercury becomes combust when within 14 degrees of Sun, affecting communication, intellect, and business dealings.",
+        "interpretation_notes": "Mercury combustion impairs communication and analytical abilities"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "mercury",
+            "with_sun": true,
+            "orb_threshold": "14_degrees"
+          }
+        }
+      },
+      "summary": "Mercury combustion occurs when Mercury is within 14 degrees of Sun, impairing communication, analytical thinking, business judgment, and learning abilities",
+      "impact": {
+        "positive_manifestation": "Potential for deep analytical insights and authoritative communication when well-managed",
+        "negative_manifestation": "Communication problems, poor business decisions, learning difficulties, and nervous system issues"
+      },
+      "action": {
+        "primary_actions": [
+          "Double-check all communications and business documents",
+          "Practice clear and precise communication techniques",
+          "Perform Mercury remedies including emerald and Vishnu worship",
+          "Avoid signing important contracts during severe combustion",
+          "Engage in learning activities to strengthen Mercury"
+        ]
+      }
+    },
+    {
+      "serial": 4007,
+      "id": "jupiter_combustion_wisdom",
+      "section": "planetary_combinations",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "71-75",
+        "page": 51,
+        "volume": 1,
+        "exact_quote": "Jupiter becomes combust when within 11 degrees of Sun, affecting wisdom, children, and spiritual growth.",
+        "interpretation_notes": "Jupiter combustion reduces wisdom and spiritual guidance"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "jupiter",
+            "with_sun": true,
+            "orb_threshold": "11_degrees"
+          }
+        }
+      },
+      "summary": "Jupiter combustion occurs when Jupiter is within 11 degrees of Sun, reducing wisdom, affecting children, limiting spiritual growth, and weakening divine protection",
+      "impact": {
+        "positive_manifestation": "Potential for authoritative teaching and leadership in spiritual matters when properly channeled",
+        "negative_manifestation": "Poor judgment, children's problems, spiritual confusion, and loss of divine blessings"
+      },
+      "action": {
+        "primary_actions": [
+          "Seek guidance from wise teachers and spiritual mentors",
+          "Practice humility and avoid overconfidence in decisions",
+          "Perform Jupiter remedies including yellow sapphire and Guru worship",
+          "Focus on children's welfare and education",
+          "Engage in charitable activities and dharmic conduct"
+        ]
+      }
+    },
+    {
+      "serial": 4008,
+      "id": "venus_combustion_relationships",
+      "section": "planetary_combinations",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "76-80",
+        "page": 53,
+        "volume": 1,
+        "exact_quote": "Venus becomes combust when within 10 degrees of Sun, affecting relationships, luxury, and artistic abilities.",
+        "interpretation_notes": "Venus combustion impacts love, beauty, and material comforts"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "venus",
+            "with_sun": true,
+            "orb_threshold": "10_degrees"
+          }
+        }
+      },
+      "summary": "Venus combustion occurs when Venus is within 10 degrees of Sun, affecting relationships, reducing luxury, impairing artistic abilities, and causing material attachment issues",
+      "impact": {
+        "positive_manifestation": "Potential for refined artistic expression and authoritative beauty when channeled properly",
+        "negative_manifestation": "Relationship problems, loss of luxury, artistic blocks, and excessive material desires"
+      },
+      "action": {
+        "primary_actions": [
+          "Practice patience and understanding in relationships",
+          "Avoid major relationship decisions during combustion",
+          "Perform Venus remedies including diamond and Lakshmi worship",
+          "Cultivate inner beauty and spiritual values",
+          "Moderate material desires and practice contentment"
+        ]
+      }
+    },
+    {
+      "serial": 4009,
+      "id": "saturn_combustion_discipline",
+      "section": "planetary_combinations",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "3",
+        "verse": "81-85",
+        "page": 55,
+        "volume": 1,
+        "exact_quote": "Saturn becomes combust when within 15 degrees of Sun, affecting discipline, causing delays, and creating authority conflicts.",
+        "interpretation_notes": "Saturn combustion creates tension between discipline and authority"
+      },
+      "conditions": {
+        "primary_condition": {
+          "combustion": {
+            "planet": "saturn",
+            "with_sun": true,
+            "orb_threshold": "15_degrees"
+          }
+        }
+      },
+      "summary": "Saturn combustion occurs when Saturn is within 15 degrees of Sun, creating authority conflicts, increasing delays, affecting discipline, and causing career obstacles",
+      "impact": {
+        "positive_manifestation": "Potential for authoritative leadership and systematic organization when properly managed",
+        "negative_manifestation": "Authority conflicts, increased delays, discipline problems, and career setbacks"
+      },
+      "action": {
+        "primary_actions": [
+          "Practice patience with authority figures and systems",
+          "Maintain discipline despite external pressures",
+          "Perform Saturn remedies including blue sapphire and Shani worship",
+          "Accept delays as opportunities for better preparation",
+          "Focus on long-term goals rather than immediate results"
+        ]
+      }
+    },
+    {
+      "serial": 4010,
+      "id": "parivartana_yoga_planetary_exchange",
+      "section": "planetary_combinations",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "41",
+        "verse": "50-55",
+        "page": 410,
+        "volume": 1,
+        "exact_quote": "When two planets are placed in each other's signs, Parivartana Yoga is formed, creating mutual strengthening and exchange of results.",
+        "interpretation_notes": "Planetary exchange creates powerful mutual reinforcement"
+      },
+      "conditions": {
+        "primary_condition": {
+          "parivartana": {
+            "type": "mutual_exchange",
+            "participating_planets": "any_two",
+            "exchange_type": {
+              "in": ["maha_parivartana", "khala_parivartana", "dainya_parivartana"]
+            }
+          }
+        }
+      },
+      "summary": "Parivartana Yoga forms when two planets occupy each other's signs, creating mutual exchange of energies and strengthening both planets' significations",
+      "impact": {
+        "positive_manifestation": "Mutual strengthening of both planets' significations, enhanced results in both areas, and powerful combination effects",
+        "negative_manifestation": "Mutual affliction if both planets are weak, creating challenges in both areas simultaneously"
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen both participating planets through appropriate remedies",
+          "Maximize opportunities in both planets' signification areas",
+          "Time important activities during favorable periods for both planets",
+          "Balance attention between both planets' areas of influence",
+          "Use the mutual support for achieving combined objectives"
+        ]
+      }
+    }
+  ]
+}

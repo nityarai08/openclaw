@@ -1,0 +1,2599 @@
+{
+  "meta": {
+    "title": "Comprehensive BPHS Dasha Rules v1.0",
+    "basis": "Bṛhat Parāśara Horā Śāstra Ch. 47-48 (R. Santhanam, Vol. II)",
+    "created_at": "2025-10-12T08:13:21.368784",
+    "total_rules": 71,
+    "rule_categories": {
+      "mahadasha_effects": 9,
+      "antardasha_combinations": 50,
+      "house_lord_dashas": 12
+    }
+  },
+  "rules": [
+    {
+      "serial": 1000,
+      "id": "comprehensive_maha_sun",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "7-15",
+        "page": 577,
+        "volume": 2,
+        "exact_quote": "During the Dasa of the Sun, there is acquisition of wealth, great felicity and honours from Government, if at the time of birth the Sun be in his own sign, in his sign of exaltation, in a kendra, in the 11th, be associated with the lord of the 9th or the 10th and strong in his Varga.",
+        "interpretation_notes": "Complete Sun mahadasha effects with dignity variations"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun"
+          }
+        },
+        "dignity_modifiers": {
+          "sun": ["exalted", "own", "mulatrikona", "friend", "neutral", "enemy", "debilitated"]
+        },
+        "house_considerations": [1, 4, 7, 10, 11],
+        "association_benefits": ["9th_lord", "10th_lord", "5th_lord", "2nd_lord", "4th_lord"]
+      },
+      "summary": "Sun mahadasha (6 years) activates leadership, authority, government relations, father themes, and personal recognition based on Sun's natal dignity and placement",
+      "impact": {
+        "positive_manifestation": "Government honors, wealth acquisition, son/children blessings, elephant/vehicle gains, high positions like Army Chief, agricultural products, conveyances, and paternal support when Sun is dignified",
+        "negative_manifestation": "Government punishment, exile, defamation, kinsmen opposition, father's distress, home troubles, paternal/maternal uncle issues, anxiety, and enmity when Sun is debilitated or afflicted",
+        "neutral_manifestation": "Mixed results with moderate authority gains and occasional challenges depending on transits and antardashas",
+        "strength_variations": {
+          "exalted": "Maximum government favor, highest positions, exceptional wealth gains",
+          "own": "Strong authority, good government relations, steady wealth growth",
+          "friend": "Supportive authority figures, moderate gains, helpful mentors",
+          "neutral": "Average results with effort-based outcomes",
+          "enemy": "Authority conflicts, government troubles, reduced gains",
+          "debilitated": "Severe government issues, health problems, father's suffering"
+        },
+        "timing_variations": {
+          "early_dasha": "Effects manifest based on Sun's drekkana - 1st drekkana shows early results",
+          "mid_dasha": "2nd drekkana effects dominate middle period",
+          "late_dasha": "3rd drekkana influences final outcomes"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Seek government positions or recognition during favorable Sun periods",
+          "Strengthen father relationships and paternal connections",
+          "Invest in agricultural products, gold, or authority-related ventures",
+          "Maintain ethical standards to avoid government troubles",
+          "Schedule important announcements during strong Sun transits"
+        ],
+        "conditional_actions": {
+          "if_dignified": [
+            "Apply for leadership roles",
+            "Seek government contracts",
+            "Invest in status symbols"
+          ],
+          "if_afflicted": [
+            "Avoid government disputes",
+            "Focus on health maintenance",
+            "Repair father relationships"
+          ]
+        },
+        "timing_guidance": {
+          "optimal": "During Sun's exaltation transit (March-April), own sign periods, and favorable antardashas",
+          "avoid": "During Sun's debilitation (September-October), eclipse periods, and malefic antardashas"
+        }
+      }
+    },
+    {
+      "serial": 1001,
+      "id": "comprehensive_maha_moon",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "16-22",
+        "page": 579,
+        "volume": 2,
+        "exact_quote": "During the Dasa of the Moon there will be acquisition of wealth, grains, clothes, ornaments, women, fragrant articles, flowers etc. if the Moon be waxing, be in her own sign, in her sign of exaltation or in a kendra.",
+        "interpretation_notes": "Complete Moon mahadasha effects with lunar phases and dignity considerations"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon"
+          }
+        },
+        "lunar_phases": ["waxing", "waning", "new", "full"],
+        "dignity_modifiers": {
+          "moon": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"]
+        },
+        "house_considerations": [1, 4, 7, 10, 11]
+      },
+      "summary": "Moon mahadasha (10 years) governs emotions, home, mother, liquids, real estate, public relations, and mental peace based on lunar strength and phases",
+      "impact": {
+        "positive_manifestation": "Wealth through liquids/agriculture, grain acquisition, beautiful clothes/ornaments, female support, fragrant articles, flowers, land gains, maternal blessings, and public favor when Moon is waxing and dignified",
+        "negative_manifestation": "Mental distress, mother's troubles, water-related problems, emotional instability, loss of reputation, wandering tendencies, and health issues when Moon is waning or afflicted",
+        "neutral_manifestation": "Fluctuating results with periodic gains and losses, emotional ups and downs",
+        "strength_variations": {
+          "waxing_exalted": "Maximum gains in real estate, exceptional maternal support, public acclaim",
+          "waxing_own": "Strong emotional stability, good home comforts, steady liquid gains",
+          "waning_debilitated": "Severe mental distress, mother's suffering, water-related calamities",
+          "new_moon": "New beginnings but with initial struggles",
+          "full_moon": "Peak emotional and material fulfillment"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Invest in real estate, agriculture, or liquid-related businesses",
+          "Strengthen mother relationships and home environment",
+          "Maintain regular sleep and emotional wellness routines",
+          "Time important decisions during waxing moon periods",
+          "Develop public relations and community connections"
+        ],
+        "conditional_actions": {
+          "if_waxing": ["Make major purchases", "Start new ventures", "Improve home"],
+          "if_waning": ["Focus on completion", "Emotional healing", "Reduce public exposure"]
+        }
+      }
+    },
+    {
+      "serial": 1002,
+      "id": "comprehensive_maha_mars",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "23-29",
+        "page": 581,
+        "volume": 2,
+        "exact_quote": "During Mars dasha, if Mars is in exaltation, own sign, or kendra, there will be acquisition of lands, villages, wealth, grains, and victory over enemies.",
+        "interpretation_notes": "Complete Mars mahadasha effects including Manglik considerations"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars"
+          }
+        },
+        "dignity_modifiers": {
+          "mars": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"]
+        },
+        "manglik_considerations": ["1st", "4th", "7th", "8th", "12th"],
+        "house_considerations": [1, 4, 7, 10, 3, 6, 11]
+      },
+      "summary": "Mars mahadasha (7 years) activates courage, property, siblings, conflicts, surgery, engineering, and military themes based on Mars dignity and house placement",
+      "impact": {
+        "positive_manifestation": "Land acquisition, village ownership, wealth through property, grain profits, enemy victory, brother support, engineering success, military honors, and surgical healing when Mars is dignified",
+        "negative_manifestation": "Property disputes, sibling conflicts, accidents, surgery complications, legal battles, fire hazards, blood disorders, and marital discord when Mars is afflicted or in Manglik positions",
+        "strength_variations": {
+          "exalted": "Maximum property gains, exceptional courage, military success",
+          "own": "Strong real estate profits, good sibling relations, engineering achievements",
+          "debilitated": "Property losses, accident proneness, sibling troubles, health issues"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Invest in real estate, construction, or engineering ventures",
+          "Strengthen sibling relationships and resolve conflicts",
+          "Maintain physical fitness and safety protocols",
+          "Channel aggression into productive competition",
+          "Address Manglik doshas through appropriate remedies"
+        ]
+      }
+    },
+    {
+      "serial": 1003,
+      "id": "comprehensive_maha_rahu",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "30-36",
+        "page": 583,
+        "volume": 2,
+        "exact_quote": "During Rahu dasha, if Rahu is in exaltation or associated with benefics, there will be acquisition of elephants, horses, wealth, grains, and royal favor.",
+        "interpretation_notes": "Complete Rahu mahadasha effects including foreign and unconventional gains"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu"
+          }
+        },
+        "dignity_modifiers": {
+          "rahu": ["exalted", "friend", "neutral", "enemy", "debilitated"]
+        },
+        "association_benefits": ["jupiter", "venus", "mercury", "moon"],
+        "house_considerations": [3, 6, 10, 11]
+      },
+      "summary": "Rahu mahadasha (18 years) brings unconventional gains, foreign connections, technology, sudden elevation, and material ambitions with potential for deception when afflicted",
+      "impact": {
+        "positive_manifestation": "Foreign wealth, technological gains, sudden elevation, elephant/horse acquisition, royal favor, unconventional success, and material prosperity when Rahu is well-placed",
+        "negative_manifestation": "Deception, legal troubles, foreign complications, health issues, mental disturbance, addiction tendencies, and reputation damage when Rahu is afflicted",
+        "strength_variations": {
+          "exalted": "Maximum foreign gains, exceptional technological success",
+          "with_benefics": "Balanced unconventional growth with ethical foundation",
+          "afflicted": "Severe deception, legal troubles, health complications"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Explore foreign markets and international opportunities",
+          "Invest in technology, innovation, or unconventional ventures",
+          "Maintain ethical standards to avoid deception",
+          "Regular health checkups for mysterious ailments",
+          "Document all agreements to prevent legal issues"
+        ]
+      }
+    },
+    {
+      "serial": 1004,
+      "id": "comprehensive_maha_jupiter",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "37-43",
+        "page": 585,
+        "volume": 2,
+        "exact_quote": "During Jupiter dasha, if Jupiter is in exaltation, own sign, or kendra, there will be acquisition of wealth, learning, sons, and royal favor.",
+        "interpretation_notes": "Complete Jupiter mahadasha effects including wisdom and progeny themes"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter"
+          }
+        },
+        "dignity_modifiers": {
+          "jupiter": ["exalted", "own", "mulatrikona", "friend", "neutral", "enemy", "debilitated"]
+        }
+      },
+      "summary": "Jupiter mahadasha (16 years) expands wisdom, wealth, children, teaching, spirituality, and divine grace based on Jupiter's dignity and house placement",
+      "impact": {
+        "positive_manifestation": "Wealth acquisition, learning advancement, son/children blessings, royal favor, teaching opportunities, spiritual growth, and divine protection when Jupiter is dignified",
+        "negative_manifestation": "Over-expansion, legal troubles, children's problems, loss of wealth through poor judgment, and spiritual confusion when Jupiter is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue higher education, certifications, or teaching roles",
+          "Invest in ethical businesses and long-term growth",
+          "Strengthen relationships with children and mentees",
+          "Engage in charitable activities and spiritual practices",
+          "Seek wise counsel before major decisions"
+        ]
+      }
+    },
+    {
+      "serial": 1005,
+      "id": "comprehensive_maha_saturn",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "44-50",
+        "page": 587,
+        "volume": 2,
+        "exact_quote": "During Saturn dasha, if Saturn is in exaltation, own sign, or associated with benefics, there will be acquisition of lands, servants, and wealth through perseverance.",
+        "interpretation_notes": "Complete Saturn mahadasha effects including karmic themes and delays"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn mahadasha (19 years) tests patience, discipline, and karmic debts while rewarding persistent effort with lasting gains in property and status",
+      "impact": {
+        "positive_manifestation": "Land acquisition, servant/employee gains, wealth through perseverance, lasting achievements, and karmic rewards when Saturn is dignified",
+        "negative_manifestation": "Delays, obstacles, health issues, servant troubles, property disputes, and karmic penalties when Saturn is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on long-term goals requiring patience and persistence",
+          "Invest in real estate, agriculture, or traditional businesses",
+          "Maintain discipline in health, work, and spiritual practices",
+          "Address karmic debts through service and charity",
+          "Build systematic approaches to overcome obstacles"
+        ]
+      }
+    },
+    {
+      "serial": 1006,
+      "id": "comprehensive_maha_mercury",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "51-57",
+        "page": 589,
+        "volume": 2,
+        "exact_quote": "During Mercury dasha, if Mercury is in exaltation, own sign, or associated with benefics, there will be acquisition of learning, wealth through trade, and success in communications.",
+        "interpretation_notes": "Complete Mercury mahadasha effects including commerce and communication themes"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury mahadasha (17 years) enhances communication, commerce, learning, writing, and analytical abilities with gains through intellectual pursuits",
+      "impact": {
+        "positive_manifestation": "Learning advancement, trade profits, communication success, writing achievements, analytical breakthroughs, and intellectual recognition when Mercury is dignified",
+        "negative_manifestation": "Communication problems, trade losses, learning difficulties, nervous disorders, and analytical confusion when Mercury is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Develop communication skills and writing abilities",
+          "Engage in trade, commerce, or analytical work",
+          "Pursue learning opportunities and skill development",
+          "Maintain clear documentation and communication",
+          "Network with intellectuals and business professionals"
+        ]
+      }
+    },
+    {
+      "serial": 1007,
+      "id": "comprehensive_maha_ketu",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "58-64",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "During Ketu dasha, there will be spiritual inclination, detachment from worldly pleasures, and gains through occult knowledge when Ketu is well-placed.",
+        "interpretation_notes": "Complete Ketu mahadasha effects including spiritual and detachment themes"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu mahadasha (7 years) promotes spiritual growth, detachment, occult knowledge, and liberation from material attachments with potential isolation",
+      "impact": {
+        "positive_manifestation": "Spiritual advancement, occult knowledge, detachment benefits, liberation experiences, and inner peace when Ketu is well-placed",
+        "negative_manifestation": "Isolation, confusion, material losses, health issues, and spiritual delusion when Ketu is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on spiritual practices and inner development",
+          "Study occult sciences and metaphysical subjects",
+          "Practice detachment from material outcomes",
+          "Engage in meditation and contemplative practices",
+          "Seek guidance from spiritual teachers"
+        ]
+      }
+    },
+    {
+      "serial": 1008,
+      "id": "comprehensive_maha_venus",
+      "section": "comprehensive_timing",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "47",
+        "verse": "65-71",
+        "page": 593,
+        "volume": 2,
+        "exact_quote": "During Venus dasha, if Venus is in exaltation, own sign, or associated with benefics, there will be acquisition of wealth, beautiful wife, ornaments, and artistic success.",
+        "interpretation_notes": "Complete Venus mahadasha effects including relationship and artistic themes"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus mahadasha (20 years) enhances relationships, artistic abilities, luxury, beauty, and material comforts with potential for indulgence when afflicted",
+      "impact": {
+        "positive_manifestation": "Wealth acquisition, beautiful spouse, ornament gains, artistic success, luxury enjoyment, and harmonious relationships when Venus is dignified",
+        "negative_manifestation": "Relationship troubles, artistic failures, luxury losses, health issues related to indulgence, and material attachment when Venus is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Cultivate artistic skills and creative expression",
+          "Invest in beauty, luxury goods, or entertainment industries",
+          "Strengthen romantic and business partnerships",
+          "Maintain balance between pleasure and responsibility",
+          "Develop aesthetic sense and refined tastes"
+        ]
+      }
+    },
+    {
+      "serial": 1009,
+      "id": "antar_moon_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Sun mahadasha creates authority meeting emotions - leadership with sensitivity",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within sun framework",
+          "Balance sun goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1010,
+      "id": "antar_mars_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mars antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of mars sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "mars"
+          }
+        }
+      },
+      "summary": "Mars antardasha in Sun mahadasha creates authority meeting action - decisive leadership with potential conflicts",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and mars qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and mars creating internal tension",
+        "neutral_manifestation": "Mixed results with mars modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mars-related activities within sun framework",
+          "Balance sun goals with mars methods",
+          "Monitor mars transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1011,
+      "id": "antar_rahu_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of rahu antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of rahu sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "rahu"
+          }
+        }
+      },
+      "summary": "Rahu antardasha in Sun mahadasha creates blended effects of sun and rahu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and rahu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and rahu creating internal tension",
+        "neutral_manifestation": "Mixed results with rahu modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on rahu-related activities within sun framework",
+          "Balance sun goals with rahu methods",
+          "Monitor rahu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1012,
+      "id": "antar_jupiter_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of jupiter antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of jupiter sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "jupiter"
+          }
+        }
+      },
+      "summary": "Jupiter antardasha in Sun mahadasha creates blended effects of sun and jupiter energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and jupiter qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and jupiter creating internal tension",
+        "neutral_manifestation": "Mixed results with jupiter modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on jupiter-related activities within sun framework",
+          "Balance sun goals with jupiter methods",
+          "Monitor jupiter transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1013,
+      "id": "antar_saturn_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of saturn antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of saturn sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn antardasha in Sun mahadasha creates blended effects of sun and saturn energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and saturn qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and saturn creating internal tension",
+        "neutral_manifestation": "Mixed results with saturn modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on saturn-related activities within sun framework",
+          "Balance sun goals with saturn methods",
+          "Monitor saturn transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1014,
+      "id": "antar_mercury_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Sun mahadasha creates blended effects of sun and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within sun framework",
+          "Balance sun goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1015,
+      "id": "antar_ketu_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Sun mahadasha creates blended effects of sun and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within sun framework",
+          "Balance sun goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1016,
+      "id": "antar_venus_in_maha_sun",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in sun mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within sun major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "sun",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Sun mahadasha creates blended effects of sun and venus energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of sun and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between sun and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying sun themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within sun framework",
+          "Balance sun goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1017,
+      "id": "antar_sun_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Moon mahadasha creates blended effects of moon and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within moon framework",
+          "Balance moon goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1018,
+      "id": "antar_mars_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mars antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of mars sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "mars"
+          }
+        }
+      },
+      "summary": "Mars antardasha in Moon mahadasha creates emotions meeting action - impulsive decisions with family impact",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and mars qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and mars creating internal tension",
+        "neutral_manifestation": "Mixed results with mars modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mars-related activities within moon framework",
+          "Balance moon goals with mars methods",
+          "Monitor mars transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1019,
+      "id": "antar_rahu_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of rahu antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of rahu sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "rahu"
+          }
+        }
+      },
+      "summary": "Rahu antardasha in Moon mahadasha creates blended effects of moon and rahu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and rahu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and rahu creating internal tension",
+        "neutral_manifestation": "Mixed results with rahu modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on rahu-related activities within moon framework",
+          "Balance moon goals with rahu methods",
+          "Monitor rahu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1020,
+      "id": "antar_jupiter_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of jupiter antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of jupiter sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "jupiter"
+          }
+        }
+      },
+      "summary": "Jupiter antardasha in Moon mahadasha creates blended effects of moon and jupiter energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and jupiter qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and jupiter creating internal tension",
+        "neutral_manifestation": "Mixed results with jupiter modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on jupiter-related activities within moon framework",
+          "Balance moon goals with jupiter methods",
+          "Monitor jupiter transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1021,
+      "id": "antar_saturn_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of saturn antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of saturn sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn antardasha in Moon mahadasha creates blended effects of moon and saturn energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and saturn qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and saturn creating internal tension",
+        "neutral_manifestation": "Mixed results with saturn modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on saturn-related activities within moon framework",
+          "Balance moon goals with saturn methods",
+          "Monitor saturn transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1022,
+      "id": "antar_mercury_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Moon mahadasha creates blended effects of moon and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within moon framework",
+          "Balance moon goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1023,
+      "id": "antar_ketu_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Moon mahadasha creates blended effects of moon and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within moon framework",
+          "Balance moon goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1024,
+      "id": "antar_venus_in_maha_moon",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in moon mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within moon major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "moon",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Moon mahadasha creates blended effects of moon and venus energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of moon and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between moon and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying moon themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within moon framework",
+          "Balance moon goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1025,
+      "id": "antar_sun_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Mars mahadasha creates blended effects of mars and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within mars framework",
+          "Balance mars goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1026,
+      "id": "antar_moon_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Mars mahadasha creates blended effects of mars and moon energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within mars framework",
+          "Balance mars goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1027,
+      "id": "antar_rahu_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of rahu antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of rahu sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "rahu"
+          }
+        }
+      },
+      "summary": "Rahu antardasha in Mars mahadasha creates blended effects of mars and rahu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and rahu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and rahu creating internal tension",
+        "neutral_manifestation": "Mixed results with rahu modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on rahu-related activities within mars framework",
+          "Balance mars goals with rahu methods",
+          "Monitor rahu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1028,
+      "id": "antar_jupiter_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of jupiter antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of jupiter sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "jupiter"
+          }
+        }
+      },
+      "summary": "Jupiter antardasha in Mars mahadasha creates blended effects of mars and jupiter energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and jupiter qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and jupiter creating internal tension",
+        "neutral_manifestation": "Mixed results with jupiter modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on jupiter-related activities within mars framework",
+          "Balance mars goals with jupiter methods",
+          "Monitor jupiter transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1029,
+      "id": "antar_saturn_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of saturn antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of saturn sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn antardasha in Mars mahadasha creates blended effects of mars and saturn energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and saturn qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and saturn creating internal tension",
+        "neutral_manifestation": "Mixed results with saturn modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on saturn-related activities within mars framework",
+          "Balance mars goals with saturn methods",
+          "Monitor saturn transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1030,
+      "id": "antar_mercury_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Mars mahadasha creates blended effects of mars and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within mars framework",
+          "Balance mars goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1031,
+      "id": "antar_ketu_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Mars mahadasha creates blended effects of mars and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within mars framework",
+          "Balance mars goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1032,
+      "id": "antar_venus_in_maha_mars",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in mars mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within mars major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mars",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Mars mahadasha creates blended effects of mars and venus energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mars and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mars and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying mars themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within mars framework",
+          "Balance mars goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1033,
+      "id": "antar_sun_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Rahu mahadasha creates blended effects of rahu and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within rahu framework",
+          "Balance rahu goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1034,
+      "id": "antar_moon_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Rahu mahadasha creates blended effects of rahu and moon energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within rahu framework",
+          "Balance rahu goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1035,
+      "id": "antar_mars_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mars antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of mars sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "mars"
+          }
+        }
+      },
+      "summary": "Mars antardasha in Rahu mahadasha creates blended effects of rahu and mars energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and mars qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and mars creating internal tension",
+        "neutral_manifestation": "Mixed results with mars modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mars-related activities within rahu framework",
+          "Balance rahu goals with mars methods",
+          "Monitor mars transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1036,
+      "id": "antar_jupiter_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of jupiter antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of jupiter sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "jupiter"
+          }
+        }
+      },
+      "summary": "Jupiter antardasha in Rahu mahadasha creates blended effects of rahu and jupiter energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and jupiter qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and jupiter creating internal tension",
+        "neutral_manifestation": "Mixed results with jupiter modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on jupiter-related activities within rahu framework",
+          "Balance rahu goals with jupiter methods",
+          "Monitor jupiter transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1037,
+      "id": "antar_saturn_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of saturn antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of saturn sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn antardasha in Rahu mahadasha creates blended effects of rahu and saturn energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and saturn qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and saturn creating internal tension",
+        "neutral_manifestation": "Mixed results with saturn modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on saturn-related activities within rahu framework",
+          "Balance rahu goals with saturn methods",
+          "Monitor saturn transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1038,
+      "id": "antar_mercury_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Rahu mahadasha creates blended effects of rahu and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within rahu framework",
+          "Balance rahu goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1039,
+      "id": "antar_ketu_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Rahu mahadasha creates blended effects of rahu and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within rahu framework",
+          "Balance rahu goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1040,
+      "id": "antar_venus_in_maha_rahu",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in rahu mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within rahu major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "rahu",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Rahu mahadasha creates blended effects of rahu and venus energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of rahu and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between rahu and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying rahu themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within rahu framework",
+          "Balance rahu goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1041,
+      "id": "antar_sun_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Jupiter mahadasha creates blended effects of jupiter and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within jupiter framework",
+          "Balance jupiter goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1042,
+      "id": "antar_moon_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Jupiter mahadasha creates blended effects of jupiter and moon energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within jupiter framework",
+          "Balance jupiter goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1043,
+      "id": "antar_mars_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mars antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of mars sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "mars"
+          }
+        }
+      },
+      "summary": "Mars antardasha in Jupiter mahadasha creates blended effects of jupiter and mars energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and mars qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and mars creating internal tension",
+        "neutral_manifestation": "Mixed results with mars modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mars-related activities within jupiter framework",
+          "Balance jupiter goals with mars methods",
+          "Monitor mars transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1044,
+      "id": "antar_rahu_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of rahu antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of rahu sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "rahu"
+          }
+        }
+      },
+      "summary": "Rahu antardasha in Jupiter mahadasha creates blended effects of jupiter and rahu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and rahu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and rahu creating internal tension",
+        "neutral_manifestation": "Mixed results with rahu modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on rahu-related activities within jupiter framework",
+          "Balance jupiter goals with rahu methods",
+          "Monitor rahu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1045,
+      "id": "antar_saturn_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of saturn antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of saturn sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "saturn"
+          }
+        }
+      },
+      "summary": "Saturn antardasha in Jupiter mahadasha creates blended effects of jupiter and saturn energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and saturn qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and saturn creating internal tension",
+        "neutral_manifestation": "Mixed results with saturn modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on saturn-related activities within jupiter framework",
+          "Balance jupiter goals with saturn methods",
+          "Monitor saturn transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1046,
+      "id": "antar_mercury_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Jupiter mahadasha creates blended effects of jupiter and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within jupiter framework",
+          "Balance jupiter goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1047,
+      "id": "antar_ketu_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Jupiter mahadasha creates blended effects of jupiter and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within jupiter framework",
+          "Balance jupiter goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1048,
+      "id": "antar_venus_in_maha_jupiter",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in jupiter mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within jupiter major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "jupiter",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Jupiter mahadasha creates wisdom meeting pleasure - balanced growth with material gains",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of jupiter and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between jupiter and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying jupiter themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within jupiter framework",
+          "Balance jupiter goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1049,
+      "id": "antar_sun_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Saturn mahadasha creates blended effects of saturn and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within saturn framework",
+          "Balance saturn goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1050,
+      "id": "antar_moon_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Saturn mahadasha creates blended effects of saturn and moon energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within saturn framework",
+          "Balance saturn goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1051,
+      "id": "antar_mars_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mars antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of mars sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "mars"
+          }
+        }
+      },
+      "summary": "Mars antardasha in Saturn mahadasha creates blended effects of saturn and mars energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and mars qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and mars creating internal tension",
+        "neutral_manifestation": "Mixed results with mars modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mars-related activities within saturn framework",
+          "Balance saturn goals with mars methods",
+          "Monitor mars transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1052,
+      "id": "antar_rahu_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of rahu antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of rahu sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "rahu"
+          }
+        }
+      },
+      "summary": "Rahu antardasha in Saturn mahadasha creates discipline meeting ambition - structured unconventional growth",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and rahu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and rahu creating internal tension",
+        "neutral_manifestation": "Mixed results with rahu modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on rahu-related activities within saturn framework",
+          "Balance saturn goals with rahu methods",
+          "Monitor rahu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1053,
+      "id": "antar_jupiter_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of jupiter antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of jupiter sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "jupiter"
+          }
+        }
+      },
+      "summary": "Jupiter antardasha in Saturn mahadasha creates blended effects of saturn and jupiter energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and jupiter qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and jupiter creating internal tension",
+        "neutral_manifestation": "Mixed results with jupiter modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on jupiter-related activities within saturn framework",
+          "Balance saturn goals with jupiter methods",
+          "Monitor jupiter transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1054,
+      "id": "antar_mercury_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of mercury antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of mercury sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "mercury"
+          }
+        }
+      },
+      "summary": "Mercury antardasha in Saturn mahadasha creates blended effects of saturn and mercury energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and mercury qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and mercury creating internal tension",
+        "neutral_manifestation": "Mixed results with mercury modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on mercury-related activities within saturn framework",
+          "Balance saturn goals with mercury methods",
+          "Monitor mercury transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1055,
+      "id": "antar_ketu_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of ketu antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of ketu sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "ketu"
+          }
+        }
+      },
+      "summary": "Ketu antardasha in Saturn mahadasha creates blended effects of saturn and ketu energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and ketu qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and ketu creating internal tension",
+        "neutral_manifestation": "Mixed results with ketu modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on ketu-related activities within saturn framework",
+          "Balance saturn goals with ketu methods",
+          "Monitor ketu transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1056,
+      "id": "antar_venus_in_maha_saturn",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of venus antardasha in saturn mahadasha",
+        "interpretation_notes": "Specific combination effects of venus sub-period within saturn major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "saturn",
+            "antardasha": "venus"
+          }
+        }
+      },
+      "summary": "Venus antardasha in Saturn mahadasha creates blended effects of saturn and venus energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of saturn and venus qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between saturn and venus creating internal tension",
+        "neutral_manifestation": "Mixed results with venus modifying saturn themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on venus-related activities within saturn framework",
+          "Balance saturn goals with venus methods",
+          "Monitor venus transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1057,
+      "id": "antar_sun_in_maha_mercury",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of sun antardasha in mercury mahadasha",
+        "interpretation_notes": "Specific combination effects of sun sub-period within mercury major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mercury",
+            "antardasha": "sun"
+          }
+        }
+      },
+      "summary": "Sun antardasha in Mercury mahadasha creates blended effects of mercury and sun energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mercury and sun qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mercury and sun creating internal tension",
+        "neutral_manifestation": "Mixed results with sun modifying mercury themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on sun-related activities within mercury framework",
+          "Balance mercury goals with sun methods",
+          "Monitor sun transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1058,
+      "id": "antar_moon_in_maha_mercury",
+      "section": "antardasha_refinement",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "52-59",
+        "verse": "varies",
+        "page": "627-717",
+        "volume": 2,
+        "exact_quote": "Effects of moon antardasha in mercury mahadasha",
+        "interpretation_notes": "Specific combination effects of moon sub-period within mercury major period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "mercury",
+            "antardasha": "moon"
+          }
+        }
+      },
+      "summary": "Moon antardasha in Mercury mahadasha creates blended effects of mercury and moon energies",
+      "impact": {
+        "positive_manifestation": "Harmonious blend of mercury and moon qualities producing balanced results",
+        "negative_manifestation": "Conflicting energies between mercury and moon creating internal tension",
+        "neutral_manifestation": "Mixed results with moon modifying mercury themes"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on moon-related activities within mercury framework",
+          "Balance mercury goals with moon methods",
+          "Monitor moon transits for optimal timing"
+        ]
+      }
+    },
+    {
+      "serial": 1081,
+      "id": "comprehensive_dasa_first_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "1-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of first lord dasha",
+        "interpretation_notes": "Comprehensive effects when first house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 1
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of first house lord activates self, health, personality, and life direction with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced self, health, personality, and life direction when lord is dignified",
+        "negative_manifestation": "Challenges in self, health, personality, and life direction when lord is afflicted",
+        "neutral_manifestation": "Mixed results in self, health, personality, and life direction areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on self, health, personality, and life direction development",
+          "Strengthen 1th house significations",
+          "Address any 1th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1082,
+      "id": "comprehensive_dasa_second_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "2-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of second lord dasha",
+        "interpretation_notes": "Comprehensive effects when second house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 2
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of second house lord activates wealth, speech, family values, and resources with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced wealth, speech, family values, and resources when lord is dignified",
+        "negative_manifestation": "Challenges in wealth, speech, family values, and resources when lord is afflicted",
+        "neutral_manifestation": "Mixed results in wealth, speech, family values, and resources areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on wealth, speech, family values, and resources development",
+          "Strengthen 2th house significations",
+          "Address any 2th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1083,
+      "id": "comprehensive_dasa_third_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "3-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of third lord dasha",
+        "interpretation_notes": "Comprehensive effects when third house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 3
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of third house lord activates siblings, courage, short travels, and communication with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced siblings, courage, short travels, and communication when lord is dignified",
+        "negative_manifestation": "Challenges in siblings, courage, short travels, and communication when lord is afflicted",
+        "neutral_manifestation": "Mixed results in siblings, courage, short travels, and communication areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on siblings, courage, short travels, and communication development",
+          "Strengthen 3th house significations",
+          "Address any 3th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1084,
+      "id": "comprehensive_dasa_fourth_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "4-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of fourth lord dasha",
+        "interpretation_notes": "Comprehensive effects when fourth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 4
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of fourth house lord activates home, mother, property, and emotional foundations with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced home, mother, property, and emotional foundations when lord is dignified",
+        "negative_manifestation": "Challenges in home, mother, property, and emotional foundations when lord is afflicted",
+        "neutral_manifestation": "Mixed results in home, mother, property, and emotional foundations areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on home, mother, property, and emotional foundations development",
+          "Strengthen 4th house significations",
+          "Address any 4th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1085,
+      "id": "comprehensive_dasa_fifth_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "5-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of fifth lord dasha",
+        "interpretation_notes": "Comprehensive effects when fifth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 5
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of fifth house lord activates children, creativity, education, and speculation with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced children, creativity, education, and speculation when lord is dignified",
+        "negative_manifestation": "Challenges in children, creativity, education, and speculation when lord is afflicted",
+        "neutral_manifestation": "Mixed results in children, creativity, education, and speculation areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on children, creativity, education, and speculation development",
+          "Strengthen 5th house significations",
+          "Address any 5th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1086,
+      "id": "comprehensive_dasa_sixth_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "6-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of sixth lord dasha",
+        "interpretation_notes": "Comprehensive effects when sixth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 6
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of sixth house lord activates health, service, debts, and daily routines with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced health, service, debts, and daily routines when lord is dignified",
+        "negative_manifestation": "Challenges in health, service, debts, and daily routines when lord is afflicted",
+        "neutral_manifestation": "Mixed results in health, service, debts, and daily routines areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on health, service, debts, and daily routines development",
+          "Strengthen 6th house significations",
+          "Address any 6th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1087,
+      "id": "comprehensive_dasa_seventh_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "7-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of seventh lord dasha",
+        "interpretation_notes": "Comprehensive effects when seventh house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 7
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of seventh house lord activates marriage, partnerships, and public relations with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced marriage, partnerships, and public relations when lord is dignified",
+        "negative_manifestation": "Challenges in marriage, partnerships, and public relations when lord is afflicted",
+        "neutral_manifestation": "Mixed results in marriage, partnerships, and public relations areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on marriage, partnerships, and public relations development",
+          "Strengthen 7th house significations",
+          "Address any 7th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1088,
+      "id": "comprehensive_dasa_eighth_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "8-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of eighth lord dasha",
+        "interpretation_notes": "Comprehensive effects when eighth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 8
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of eighth house lord activates longevity, transformation, occult, and sudden events with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced longevity, transformation, occult, and sudden events when lord is dignified",
+        "negative_manifestation": "Challenges in longevity, transformation, occult, and sudden events when lord is afflicted",
+        "neutral_manifestation": "Mixed results in longevity, transformation, occult, and sudden events areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on longevity, transformation, occult, and sudden events development",
+          "Strengthen 8th house significations",
+          "Address any 8th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1089,
+      "id": "comprehensive_dasa_ninth_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "9-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of ninth lord dasha",
+        "interpretation_notes": "Comprehensive effects when ninth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 9
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of ninth house lord activates dharma, higher learning, mentors, and long journeys with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced dharma, higher learning, mentors, and long journeys when lord is dignified",
+        "negative_manifestation": "Challenges in dharma, higher learning, mentors, and long journeys when lord is afflicted",
+        "neutral_manifestation": "Mixed results in dharma, higher learning, mentors, and long journeys areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on dharma, higher learning, mentors, and long journeys development",
+          "Strengthen 9th house significations",
+          "Address any 9th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1090,
+      "id": "comprehensive_dasa_tenth_lord",
+      "section": "house_lord_dasha",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "10-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of tenth lord dasha",
+        "interpretation_notes": "Comprehensive effects when tenth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 10
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of tenth house lord activates career, reputation, and public recognition with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced career, reputation, and public recognition when lord is dignified",
+        "negative_manifestation": "Challenges in career, reputation, and public recognition when lord is afflicted",
+        "neutral_manifestation": "Mixed results in career, reputation, and public recognition areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on career, reputation, and public recognition development",
+          "Strengthen 10th house significations",
+          "Address any 10th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1091,
+      "id": "comprehensive_dasa_eleventh_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "11-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of eleventh lord dasha",
+        "interpretation_notes": "Comprehensive effects when eleventh house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 11
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of eleventh house lord activates gains, networks, and elder siblings with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced gains, networks, and elder siblings when lord is dignified",
+        "negative_manifestation": "Challenges in gains, networks, and elder siblings when lord is afflicted",
+        "neutral_manifestation": "Mixed results in gains, networks, and elder siblings areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on gains, networks, and elder siblings development",
+          "Strengthen 11th house significations",
+          "Address any 11th house related challenges"
+        ]
+      }
+    },
+    {
+      "serial": 1092,
+      "id": "comprehensive_dasa_twelfth_lord",
+      "section": "house_lord_dasha",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "48",
+        "verse": "12-related",
+        "page": 591,
+        "volume": 2,
+        "exact_quote": "Effects of twelfth lord dasha",
+        "interpretation_notes": "Comprehensive effects when twelfth house lord runs its dasha period"
+      },
+      "conditions": {
+        "primary_condition": {
+          "dasha_active": {
+            "mahadasha": "*",
+            "bhava_lord_dasa": 12
+          }
+        },
+        "dignity_considerations": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+        "house_placement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+      },
+      "summary": "Dasha of twelfth house lord activates expenses, foreign lands, spirituality, and losses with results depending on lord's dignity and placement",
+      "impact": {
+        "positive_manifestation": "Enhanced expenses, foreign lands, spirituality, and losses when lord is dignified",
+        "negative_manifestation": "Challenges in expenses, foreign lands, spirituality, and losses when lord is afflicted",
+        "neutral_manifestation": "Mixed results in expenses, foreign lands, spirituality, and losses areas"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on expenses, foreign lands, spirituality, and losses development",
+          "Strengthen 12th house significations",
+          "Address any 12th house related challenges"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "title": "Comprehensive BPHS Divisional Chart Rules v1.0",
+    "basis": "Bṛhat Parāśara Horā Śāstra Ch. 6-7 (R. Santhanam, Vol. I)",
+    "created_at": "2025-10-12T08:19:35.055668",
+    "total_rules": 9,
+    "rule_categories": {
+      "navamsa_rules": 3,
+      "dasamsa_rules": 3,
+      "other_divisional_rules": 3
+    },
+    "divisional_charts_covered": [
+      "Navamsa (D9) - Marriage and spirituality",
+      "Dasamsa (D10) - Career and profession",
+      "Hora (D2) - Wealth potential",
+      "Drekkana (D3) - Siblings and courage",
+      "Saptamsa (D7) - Children and creativity"
+    ]
+  },
+  "rules": [
+    {
+      "serial": 3000,
+      "id": "navamsa_lagna_strength",
+      "section": "divisional_charts",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "7",
+        "verse": "1-5",
+        "page": 91,
+        "volume": 1,
+        "exact_quote": "The Navamsa chart shows the strength of planets and their effects on marriage, dharma, and spiritual development.",
+        "interpretation_notes": "Navamsa lagna and planetary positions indicate marital harmony and spiritual progress"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "navamsa",
+          "focus_area": "lagna_strength"
+        },
+        "strength_indicators": {
+          "navamsa_lagna_lord": ["exalted", "own", "friend"],
+          "benefic_aspects": ["jupiter", "venus", "mercury"],
+          "malefic_aspects": ["mars", "saturn", "rahu", "ketu"]
+        }
+      },
+      "summary": "Navamsa lagna strength determines marital happiness, spiritual development, and dharmic conduct based on lagna lord's dignity and aspects received",
+      "impact": {
+        "positive_manifestation": "Harmonious marriage, spiritual growth, dharmic conduct, good fortune after marriage, and strong moral character when navamsa lagna is strong",
+        "negative_manifestation": "Marital discord, spiritual obstacles, moral challenges, and post-marriage difficulties when navamsa lagna is afflicted",
+        "neutral_manifestation": "Average marital life with moderate spiritual progress and mixed dharmic results",
+        "strength_variations": {
+          "navamsa_lagna_lord_exalted": "Exceptional marital bliss and spiritual advancement",
+          "navamsa_lagna_lord_own": "Good marriage compatibility and steady spiritual growth",
+          "navamsa_lagna_lord_debilitated": "Marital challenges requiring remedial measures",
+          "benefic_aspects_to_navamsa_lagna": "Divine blessings in marriage and spirituality",
+          "malefic_aspects_to_navamsa_lagna": "Obstacles requiring patience and remedies"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen navamsa lagna lord through appropriate remedies",
+          "Match navamsa charts before marriage for compatibility",
+          "Practice spiritual disciplines to enhance dharmic strength",
+          "Seek blessings from elders and spiritual teachers",
+          "Perform marriage ceremonies during auspicious navamsa periods"
+        ],
+        "conditional_actions": {
+          "if_strong": [
+            "Plan marriage during favorable periods",
+            "Focus on spiritual advancement",
+            "Guide others in dharmic conduct"
+          ],
+          "if_weak": [
+            "Delay marriage until remedies take effect",
+            "Intensive spiritual practices",
+            "Seek astrological guidance for timing"
+          ]
+        }
+      }
+    },
+    {
+      "serial": 3001,
+      "id": "venus_navamsa_marriage_indicator",
+      "section": "divisional_charts",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "7",
+        "verse": "10-15",
+        "page": 95,
+        "volume": 1,
+        "exact_quote": "Venus placement in Navamsa determines the nature of spouse, marital happiness, and relationship harmony.",
+        "interpretation_notes": "Venus in navamsa reveals spouse characteristics and marital fulfillment"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "navamsa",
+          "planet_focus": "venus"
+        },
+        "placement_analysis": {
+          "house_position": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+          "sign_dignity": ["exalted", "own", "friend", "neutral", "enemy", "debilitated"],
+          "aspects_received": ["benefic", "malefic", "mixed"]
+        }
+      },
+      "summary": "Venus position in Navamsa chart reveals spouse nature, marital happiness, and relationship dynamics based on its dignity, house placement, and aspects",
+      "impact": {
+        "positive_manifestation": "Beautiful and virtuous spouse, harmonious marriage, material comforts through partnership, and artistic/cultural interests when Venus is well-placed in navamsa",
+        "negative_manifestation": "Spouse-related challenges, marital discord, financial issues through partnership, and relationship instability when Venus is afflicted in navamsa",
+        "strength_variations": {
+          "venus_exalted_navamsa": "Exceptionally beautiful and cultured spouse with great marital happiness",
+          "venus_own_navamsa": "Good spouse with stable marriage and material comforts",
+          "venus_debilitated_navamsa": "Spouse-related challenges requiring patience and understanding",
+          "venus_7th_navamsa": "Direct impact on marriage and partnership harmony",
+          "venus_12th_navamsa": "Foreign spouse or marriage-related expenses and challenges"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen Venus through appropriate gemstones and mantras",
+          "Cultivate artistic and cultural interests for marital harmony",
+          "Practice patience and understanding in relationships",
+          "Seek partners with compatible Venus placements",
+          "Perform Venus-related remedies before marriage"
+        ]
+      }
+    },
+    {
+      "serial": 3002,
+      "id": "jupiter_navamsa_dharma_indicator",
+      "section": "divisional_charts",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "7",
+        "verse": "20-25",
+        "page": 98,
+        "volume": 1,
+        "exact_quote": "Jupiter in Navamsa indicates dharmic conduct, spiritual wisdom, and divine blessings in married life.",
+        "interpretation_notes": "Jupiter's navamsa position shows spiritual development and dharmic strength"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "navamsa",
+          "planet_focus": "jupiter"
+        }
+      },
+      "summary": "Jupiter's position in Navamsa chart indicates dharmic conduct, spiritual wisdom, divine blessings, and the couple's joint spiritual evolution",
+      "impact": {
+        "positive_manifestation": "Strong dharmic conduct, spiritual wisdom, divine protection, children's blessings, and joint spiritual growth when Jupiter is well-placed",
+        "negative_manifestation": "Dharmic challenges, spiritual obstacles, lack of divine blessings, and children-related issues when Jupiter is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Practice dharmic conduct in all relationships",
+          "Engage in joint spiritual activities with spouse",
+          "Seek blessings from spiritual teachers and elders",
+          "Perform charitable activities together",
+          "Study spiritual texts and philosophy as a couple"
+        ]
+      }
+    },
+    {
+      "serial": 3003,
+      "id": "dasamsa_lagna_career_direction",
+      "section": "divisional_charts",
+      "priority": "High",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "13-14",
+        "page": 83,
+        "volume": 1,
+        "exact_quote": "Dasamsa chart reveals career, profession, and achievements in worldly matters based on planetary positions.",
+        "interpretation_notes": "Dasamsa lagna and 10th house analysis for career guidance"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "dasamsa",
+          "focus_area": "career_analysis"
+        },
+        "key_factors": {
+          "dasamsa_lagna_lord": "strength_analysis",
+          "dasamsa_10th_house": "career_indicators",
+          "dasamsa_10th_lord": "professional_success"
+        }
+      },
+      "summary": "Dasamsa lagna and 10th house analysis reveals career direction, professional success potential, and worldly achievements based on planetary strengths",
+      "impact": {
+        "positive_manifestation": "Clear career direction, professional success, recognition in chosen field, and steady career growth when dasamsa factors are strong",
+        "negative_manifestation": "Career confusion, professional obstacles, frequent job changes, and delayed success when dasamsa factors are weak",
+        "strength_variations": {
+          "strong_dasamsa_lagna_lord": "Natural leadership and career success",
+          "strong_dasamsa_10th_lord": "Professional recognition and authority",
+          "benefics_in_dasamsa_10th": "Smooth career progress with support",
+          "malefics_in_dasamsa_10th": "Career challenges requiring extra effort"
+        }
+      },
+      "action": {
+        "primary_actions": [
+          "Choose career aligned with dasamsa lagna lord's nature",
+          "Strengthen dasamsa 10th lord through appropriate remedies",
+          "Time career moves during favorable dasamsa periods",
+          "Develop skills indicated by strong planets in dasamsa",
+          "Seek mentorship in areas shown by dasamsa benefics"
+        ]
+      }
+    },
+    {
+      "serial": 3004,
+      "id": "sun_dasamsa_authority_position",
+      "section": "divisional_charts",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "15-18",
+        "page": 85,
+        "volume": 1,
+        "exact_quote": "Sun's position in Dasamsa indicates government service, authority positions, and leadership roles in career.",
+        "interpretation_notes": "Sun in dasamsa shows authority and government-related career potential"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "dasamsa",
+          "planet_focus": "sun"
+        }
+      },
+      "summary": "Sun's placement in Dasamsa chart indicates potential for government service, authority positions, leadership roles, and public recognition in career",
+      "impact": {
+        "positive_manifestation": "Government positions, leadership roles, public authority, and recognition from superiors when Sun is strong in dasamsa",
+        "negative_manifestation": "Authority conflicts, government troubles, ego clashes with superiors when Sun is afflicted in dasamsa"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue government service or leadership positions",
+          "Develop leadership and administrative skills",
+          "Maintain ethical conduct in authority roles",
+          "Seek positions requiring public interaction",
+          "Build reputation through consistent performance"
+        ]
+      }
+    },
+    {
+      "serial": 3005,
+      "id": "mars_dasamsa_technical_fields",
+      "section": "divisional_charts",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "19-22",
+        "page": 87,
+        "volume": 1,
+        "exact_quote": "Mars in Dasamsa indicates engineering, military, police, surgery, and technical professions requiring courage and skill.",
+        "interpretation_notes": "Mars in dasamsa shows technical and courage-based career aptitudes"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "dasamsa",
+          "planet_focus": "mars"
+        }
+      },
+      "summary": "Mars placement in Dasamsa indicates aptitude for engineering, military, police, surgery, sports, and technical fields requiring courage and precision",
+      "impact": {
+        "positive_manifestation": "Success in technical fields, military honors, surgical skills, sports achievements, and engineering excellence when Mars is strong",
+        "negative_manifestation": "Workplace conflicts, accident risks, aggressive behavior, and technical failures when Mars is afflicted"
+      },
+      "action": {
+        "primary_actions": [
+          "Pursue engineering, military, or technical careers",
+          "Develop physical fitness and technical skills",
+          "Practice safety protocols in high-risk professions",
+          "Channel competitive spirit constructively",
+          "Build expertise in specialized technical areas"
+        ]
+      }
+    },
+    {
+      "serial": 3006,
+      "id": "hora_chart_wealth_indicator",
+      "section": "divisional_charts",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "8-10",
+        "page": 75,
+        "volume": 1,
+        "exact_quote": "Hora chart with Sun and Moon horas indicates wealth potential and financial prosperity.",
+        "interpretation_notes": "Hora analysis for wealth and financial success"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "hora",
+          "focus_area": "wealth_analysis"
+        }
+      },
+      "summary": "Hora chart analysis reveals wealth potential, financial prosperity, and money-making abilities based on Sun and Moon hora distributions",
+      "impact": {
+        "positive_manifestation": "Strong wealth potential, financial prosperity, and money-making abilities when benefics are well-placed in hora",
+        "negative_manifestation": "Financial struggles, wealth obstacles, and money-related challenges when malefics dominate hora"
+      },
+      "action": {
+        "primary_actions": [
+          "Focus on wealth-building during favorable hora periods",
+          "Strengthen planets in beneficial hora positions",
+          "Time financial decisions based on hora analysis",
+          "Develop multiple income streams",
+          "Practice financial discipline and planning"
+        ]
+      }
+    },
+    {
+      "serial": 3007,
+      "id": "drekkana_chart_siblings_indicator",
+      "section": "divisional_charts",
+      "priority": "Low",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "11-12",
+        "page": 78,
+        "volume": 1,
+        "exact_quote": "Drekkana chart indicates siblings, courage, and short journeys based on planetary positions.",
+        "interpretation_notes": "Drekkana analysis for sibling relationships and courage"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "drekkana",
+          "focus_area": "siblings_courage"
+        }
+      },
+      "summary": "Drekkana chart reveals sibling relationships, courage levels, short journey outcomes, and communication abilities",
+      "impact": {
+        "positive_manifestation": "Good sibling relationships, courage in challenges, successful short journeys, and effective communication",
+        "negative_manifestation": "Sibling conflicts, lack of courage, travel problems, and communication difficulties"
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen relationships with siblings",
+          "Develop courage through gradual challenges",
+          "Plan short journeys during favorable periods",
+          "Improve communication skills",
+          "Support siblings in their endeavors"
+        ]
+      }
+    },
+    {
+      "serial": 3008,
+      "id": "saptamsa_chart_children_indicator",
+      "section": "divisional_charts",
+      "priority": "Medium",
+      "source_reference": {
+        "chapter": "6",
+        "verse": "16-18",
+        "page": 88,
+        "volume": 1,
+        "exact_quote": "Saptamsa chart indicates children, progeny, and creative potential based on planetary strengths.",
+        "interpretation_notes": "Saptamsa analysis for children and creativity"
+      },
+      "conditions": {
+        "primary_condition": {
+          "divisional_chart": "saptamsa",
+          "focus_area": "children_creativity"
+        }
+      },
+      "summary": "Saptamsa chart reveals children potential, progeny blessings, creative abilities, and reproductive health based on planetary positions",
+      "impact": {
+        "positive_manifestation": "Blessed with children, creative talents, good reproductive health, and progeny happiness",
+        "negative_manifestation": "Children-related challenges, creative blocks, reproductive issues, and progeny concerns"
+      },
+      "action": {
+        "primary_actions": [
+          "Strengthen 5th house factors for children",
+          "Develop creative talents and abilities",
+          "Maintain reproductive health through proper care",
+          "Practice patience regarding children timing",
+          "Engage in creative and artistic pursuits"
+        ]
+      }
+    }
+  ]
+}
