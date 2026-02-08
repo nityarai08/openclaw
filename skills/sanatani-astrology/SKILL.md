@@ -34,6 +34,23 @@ python3 {baseDir}/scripts/geocoding.py --place "Mumbai, India"
 
 **Output**: JSON with `latitude`, `longitude`, `timezone_offset`, `country`.
 
+### 1b. Search Locations (Multiple Results)
+
+Search for locations when a name is ambiguous or you need the user to pick from options.
+
+```bash
+python3 {baseDir}/scripts/geocoding.py --search "Springfield" --limit 5
+```
+
+**Parameters**:
+
+- `--search`: Search query (minimum 2 characters)
+- `--limit`: Maximum results to return (default 5)
+
+**Output**: JSON with array of matching locations sorted by population, each with `name`, `latitude`, `longitude`, `timezone_offset`, `country`, `population`.
+
+**Use this when**: A place name could refer to multiple cities (e.g., "Hyderabad" in India vs Pakistan, "Springfield" in multiple US states).
+
 ### 2. Birth Charts (Divisional Charts)
 
 Calculate divisional charts (D1, D9, D10, etc.) with planetary positions.
