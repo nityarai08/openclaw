@@ -1,6 +1,9 @@
 import Foundation
 
 enum ChatMarkdownPreprocessor {
+    // Keep in sync with `src/auto-reply/reply/strip-inbound-meta.ts`
+    // (`INBOUND_META_SENTINELS`), and extend parser expectations in
+    // `ChatMarkdownPreprocessorTests` when sentinels change.
     private static let inboundContextHeaders = [
         "Conversation info (untrusted metadata):",
         "Sender (untrusted metadata):",
@@ -9,6 +12,8 @@ enum ChatMarkdownPreprocessor {
         "Forwarded message context (untrusted metadata):",
         "Chat history since last reply (untrusted, for context):",
     ]
+
+    private static let markdownImagePattern = #"!\[([^\]]*)\]\(([^)]+)\)"#
 
     struct InlineImage: Identifiable {
         let id = UUID()
@@ -24,8 +29,7 @@ enum ChatMarkdownPreprocessor {
     static func preprocess(markdown raw: String) -> Result {
         let withoutContextBlocks = self.stripInboundContextBlocks(raw)
         let withoutTimestamps = self.stripPrefixedTimestamps(withoutContextBlocks)
-        let pattern = #"!\[([^\]]*)\]\((data:image\/[^;]+;base64,[^)]+)\)"#
-        guard let re = try? NSRegularExpression(pattern: pattern) else {
+        guard let re = try? NSRegularExpression(pattern: self.markdownImagePattern) else {
             return Result(cleaned: self.normalize(withoutTimestamps), images: [])
         }
 
@@ -36,40 +40,90 @@ enum ChatMarkdownPreprocessor {
         if matches.isEmpty { return Result(cleaned: self.normalize(withoutTimestamps), images: []) }
 
         var images: [InlineImage] = []
-        var cleaned = withoutTimestamps
+        let cleaned = NSMutableString(string: withoutTimestamps)
 
         for match in matches.reversed() {
             guard match.numberOfRanges >= 3 else { continue }
             let label = ns.substring(with: match.range(at: 1))
-            let dataURL = ns.substring(with: match.range(at: 2))
+            let source = ns.substring(with: match.range(at: 2))
 
-            let image: OpenClawPlatformImage? = {
-                guard let comma = dataURL.firstIndex(of: ",") else { return nil }
-                let b64 = String(dataURL[dataURL.index(after: comma)...])
-                guard let data = Data(base64Encoded: b64) else { return nil }
-                return OpenClawPlatformImage(data: data)
-            }()
-            images.append(InlineImage(label: label, image: image))
-
-            let start = cleaned.index(cleaned.startIndex, offsetBy: match.range.location)
-            let end = cleaned.index(start, offsetBy: match.range.length)
-            cleaned.replaceSubrange(start..<end, with: "")
+            if let inlineImage = self.inlineImage(label: label, source: source) {
+                images.append(inlineImage)
+                cleaned.replaceCharacters(in: match.range, with: "")
+            } else {
+                cleaned.replaceCharacters(in: match.range, with: self.fallbackImageLabel(label))
+            }
         }
 
-        return Result(cleaned: self.normalize(cleaned), images: images.reversed())
+        return Result(cleaned: self.normalize(cleaned as String), images: images.reversed())
+    }
+
+    private static func inlineImage(label: String, source: String) -> InlineImage? {
+        let trimmed = source.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard let comma = trimmed.firstIndex(of: ","),
+              trimmed[..<comma].range(
+                  of: #"^data:image\/[^;]+;base64$"#,
+                  options: [.regularExpression, .caseInsensitive]) != nil
+        else {
+            return nil
+        }
+
+        let b64 = String(trimmed[trimmed.index(after: comma)...])
+        let image = Data(base64Encoded: b64).flatMap(OpenClawPlatformImage.init(data:))
+        return InlineImage(label: label, image: image)
+    }
+
+    private static func fallbackImageLabel(_ label: String) -> String {
+        let trimmed = label.trimmingCharacters(in: .whitespacesAndNewlines)
+        return trimmed.isEmpty ? "image" : trimmed
     }
 
     private static func stripInboundContextBlocks(_ raw: String) -> String {
-        var output = raw
-        for header in self.inboundContextHeaders {
-            let escaped = NSRegularExpression.escapedPattern(for: header)
-            let pattern = "(?ms)^" + escaped + "\\n```json\\n.*?\\n```\\n?"
-            output = output.replacingOccurrences(
-                of: pattern,
-                with: "",
-                options: .regularExpression)
+        guard self.inboundContextHeaders.contains(where: raw.contains) else {
+            return raw
         }
-        return output
+
+        let normalized = raw.replacingOccurrences(of: "\r\n", with: "\n")
+        var outputLines: [String] = []
+        var inMetaBlock = false
+        var inFencedJson = false
+
+        for line in normalized.split(separator: "\n", omittingEmptySubsequences: false) {
+            let currentLine = String(line)
+
+            if !inMetaBlock && self.inboundContextHeaders.contains(where: currentLine.hasPrefix) {
+                inMetaBlock = true
+                inFencedJson = false
+                continue
+            }
+
+            if inMetaBlock {
+                if !inFencedJson && currentLine.trimmingCharacters(in: .whitespacesAndNewlines) == "```json" {
+                    inFencedJson = true
+                    continue
+                }
+
+                if inFencedJson {
+                    if currentLine.trimmingCharacters(in: .whitespacesAndNewlines) == "```" {
+                        inMetaBlock = false
+                        inFencedJson = false
+                    }
+                    continue
+                }
+
+                if currentLine.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                    continue
+                }
+
+                inMetaBlock = false
+            }
+
+            outputLines.append(currentLine)
+        }
+
+        return outputLines
+            .joined(separator: "\n")
+            .replacingOccurrences(of: #"^\n+"#, with: "", options: .regularExpression)
     }
 
     private static func stripPrefixedTimestamps(_ raw: String) -> String {
